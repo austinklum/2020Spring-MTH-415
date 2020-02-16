@@ -99,13 +99,31 @@ Please include the statements of the problems in your HW submissions. For the Ex
 	\wts{$ \phi $ is surjective, and not bijective (i.e not injective)}
 	\wts{$\forall y\in \R,\exists M\in\mathcal{M}_3(\R)$ such that $ y=\phi(M) $ and $ \neg (\forall M,N\in\mathcal{M}_3(\R),\phi(M)=\phi(N)\Rightarrow M=N)$}
 	\wts{$\forall y\in \R,\exists M\in\mathcal{M}_3(\R)$ such that $ y=\phi(M) $ and $\exists M,N\in\mathcal{M}(\R),\phi(M)=\phi(N) $ and $ M \neq N $}
-	
+	Let $ y\in\R $ and $ M\in\mathcal{M}_3(\R) := \begin{bmatrix}
+	y & 0 & 0 \\ 
+	0 & \frac{1}{\sqrt{2}} & 0\\ 
+	0 & 0 & 1
+	\end{bmatrix} $. Observe, 
+		\[ \phi(M) = \sqrt{2}\cdot det(M) = \sqrt{2}\cdot \frac{y}{\sqrt{2}} = y \]
+	Thus, $ \phi $ is surjective.\\
+	\\
+	Let $y\in\R$, $ M := \begin{bmatrix}
+	y & 0 & 0 \\ 
+	0 & \frac{1}{\sqrt{2}} & 0\\ 
+	0 & 0 & 1
+	\end{bmatrix} $, and $ N:= \begin{bmatrix}
+	1 & 0 & 0 \\ 
+	0 & \frac{1}{\sqrt{2}} & 0\\ 
+	0 & 0 & y
+	\end{bmatrix} $. Notice, $ \phi(M) = y $ and $ \phi(N)=y $. But $ M \neq N $. Hence, $ \phi  $ is not injective. Thus, $ \phi $ is not bijective\\
+	Therefore, $ \phi $ is surjective, but not bijective.
 \end{proof}
 \item For each $n \in \mathbb{N}$ let $A_n := \{  (n+1)k ~|~ k \in \mathbb{N} \}$. 
 \begin{itemize}
-    \item[(a)] What is $A_1 \cap A_2$? 
+    \item[(a)] What is $A_1 \cap A_2$? \\
+    $ A_1 \cap A_2 $ is 
     \item[(b)] Determine the sets $\bigcup_{n \in \mathbb{N}} A_n$ and $\bigcap_{n \in \mathbb{N}} A_n$.
-\end{itemize}    
+\end{itemize}   
 
 %%%artificial pagebreak
 \newpage
