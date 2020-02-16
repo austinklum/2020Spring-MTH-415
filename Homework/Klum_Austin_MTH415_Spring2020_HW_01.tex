@@ -35,6 +35,8 @@
 \renewcommand{\SS}{\mathcal{S}}
 \newcommand{\TT}{\mathcal{T}}
 
+\newcommand{\wts}[1]{\textit{\textcolor{blue}{WTS: #1}}\\}
+
 
 \begin{document}
 
@@ -76,16 +78,34 @@ Please include the statements of the problems in your HW submissions. For the Ex
 \begin{enumerate}
  
 \item Define the binary relation $\sim$ on $\mathbb{R}$ in the following way: for $a,b \in \mathbb{R}$, we say that $a \sim b$ if\footnote{In a definition, an ``if'' is always an ``if and only if''.} $a-b \in \mathbb{Z}$. Prove that $\sim$ is an equivalence relation.
-
+\begin{proof}\wts{$ \sim $ is reflexive, symmetric, and transitive}
+	\begin{enumerate}
+		\item[Reflexivity]
+		\wts{$\forall a \in \R, a-a \in \Z $}
+		Let $ a\in\R $. Notice, $ a-a=0\in\Z $. Thus, $ \sim $ is reflexive.
+		\item[Symmetry]
+		\wts{$\forall a,b\in\R, a-b=b-a$}
+		Let $ a,b\in\R $. Notice, $ a-b=c $ for some $ c\in\Z $. We can rewrite as $ c=(-1)(b-a)\in\Z $. So, $ b-a\in\Z $. Thus, $ \sim $ is symmetric.
+		\item[Transitivity]
+		\wts{$\forall a,b,c\in\R$, if $ a-b\in\Z $ and $ b-c\in\Z $, then $ a-b-(b-c)\in\Z $}
+		Let $ a,b,c\in\R $ such that $ a-b=i\in\Z$ and $ b-c=j\in\Z $. Notice, $ i-j=k\in\Z $. Thus, $ \sim $ is Transitive.
+	\end{enumerate}
+	So, $ \sim $ is reflexive, symmetric, and transitive. Hence, $ \sim $ is a binary relation.
+\end{proof}
 
 
 \item Let $\mathcal{M}_3(\R)$ be the set of all $3 \times 3$ matrices with real entries. Define the function $\phi : \mathcal{M}_3(\R) \to \mathbb{R}$ by the rule $\phi(A) = \sqrt{2} \det(A)$. Prove $\phi$ is surjective, but not bijective.
-
-    \item For each $n \in \mathbb{N}$ let $A_n := \{  (n+1)k ~|~ k \in \mathbb{N} \}$. 
-    \begin{itemize}
-        \item[(a)] What is $A_1 \cap A_2$? 
-        \item[(b)] Determine the sets $\bigcup_{n \in \mathbb{N}} A_n$ and $\bigcap_{n \in \mathbb{N}} A_n$.
-    \end{itemize}    
+\begin{proof}
+	\wts{$ \phi $ is surjective, and not bijective (i.e not injective)}
+	\wts{$\forall y\in \R,\exists M\in\mathcal{M}_3(\R)$ such that $ y=\phi(M) $ and $ \neg (\forall M,N\in\mathcal{M}_3(\R),\phi(M)=\phi(N)\Rightarrow M=N)$}
+	\wts{$\forall y\in \R,\exists M\in\mathcal{M}_3(\R)$ such that $ y=\phi(M) $ and $\exists M,N\in\mathcal{M}(\R),\phi(M)=\phi(N) $ and $ M \neq N $}
+	
+\end{proof}
+\item For each $n \in \mathbb{N}$ let $A_n := \{  (n+1)k ~|~ k \in \mathbb{N} \}$. 
+\begin{itemize}
+    \item[(a)] What is $A_1 \cap A_2$? 
+    \item[(b)] Determine the sets $\bigcup_{n \in \mathbb{N}} A_n$ and $\bigcap_{n \in \mathbb{N}} A_n$.
+\end{itemize}    
 
 %%%artificial pagebreak
 \newpage
