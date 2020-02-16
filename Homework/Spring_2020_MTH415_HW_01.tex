@@ -1,0 +1,172 @@
+%This is a Latex file.
+\documentclass[12pt]{article}
+
+\usepackage{amsmath, amssymb, amsthm, amscd, amsfonts, dsfont}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{enumerate}
+\usepackage{url,hyperref}
+\usepackage{comment}
+\usepackage{multicol}
+\usepackage{latexsym,fancyhdr}
+\usepackage[margin=1in]{geometry}
+\usepackage{lastpage} % Required to determine the last page for the footer
+\usepackage{tikz}
+\usepackage{charter}
+\usepackage{bbold}
+
+\parindent 0pt
+
+\pagestyle{fancy} \lhead{\sf MTH 415} \chead{\sf Homework \#1}
+\rhead{\sf Due: Tuesday 02/18/2020} \lfoot{} \cfoot{} \rfoot{}
+
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+
+\renewcommand{\AA}{\mathcal{A}}
+\newcommand{\BB}{\mathcal{B}}
+\newcommand{\CC}{\mathcal{C}}
+\newcommand{\DD}{\mathcal{D}}
+\newcommand{\RR}{\mathcal{R}}
+\renewcommand{\SS}{\mathcal{S}}
+\newcommand{\TT}{\mathcal{T}}
+
+
+\begin{document}
+
+{\bf Reading}: 
+\begin{itemize}
+\item Section on {\it Illustrations} in the preface.  
+\item {\bf Chapter 0} in full. 
+\item {\bf Sections 1.1 and 1.2} in {\bf Chapter 1}.
+\end{itemize}
+As mentioned in class you must actively read (do not skip anything in the text). Reread:\\
+-- \href{https://www.people.vcu.edu/~dcranston/490/handouts/math-read.html}{\textcolor{blue}{How to Read Mathematics} by Shai Simonson and Fernando Gouvea}\\
+-- \href{https://www.math.uh.edu/~tomforde/MathReadingTips.pdf}{Tom Forde's \textcolor{blue}{Tips for Reading Your Mathematics Textbook}}
+
+\smallskip
+Even read {\it all} the HW exercises! Try your best to attempt all the problems, though you don't have to submit them. Also, look over the study the problems with an eye to understanding why/how the problems were created by the authors. This will help you start creating your own questions and producing your own conjectures regarding the material. 
+
+\hrulefill
+
+\
+
+The following problems are due by 11:30pm Tuesday 2/18.  Submit both LaTeX and pdf files to the appropriate Canvas Dropbox. 
+
+\
+
+Please name the files using the following format:
+\begin{center}
+\fbox{LastName$\_$FirstName$\_$MTH415$\_$Spring2020$\_$HW$\_$01}
+\end{center}
+
+You may discuss the problems with your classmates, but your write-up must be your own. Problems with an asterisk (*) are problems you can not discuss with anyone except for me.\\
+
+Please include the statements of the problems in your HW submissions. For the Extra problems you can copy the statements from the LaTeX file that generated this pdf. However, you will have to transcribe the remaining problems from our textbook.
+
+\hrulefill
+
+\
+
+\textbf{HW \#1 Problems}:
+\begin{enumerate}
+ 
+\item Define the binary relation $\sim$ on $\mathbb{R}$ in the following way: for $a,b \in \mathbb{R}$, we say that $a \sim b$ if\footnote{In a definition, an ``if'' is always an ``if and only if''.} $a-b \in \mathbb{Z}$. Prove that $\sim$ is an equivalence relation.
+
+
+
+\item Let $\mathcal{M}_3(\R)$ be the set of all $3 \times 3$ matrices with real entries. Define the function $\phi : \mathcal{M}_3(\R) \to \mathbb{R}$ by the rule $\phi(A) = \sqrt{2} \det(A)$. Prove $\phi$ is surjective, but not bijective.
+
+    \item For each $n \in \mathbb{N}$ let $A_n := \{  (n+1)k ~|~ k \in \mathbb{N} \}$. 
+    \begin{itemize}
+        \item[(a)] What is $A_1 \cap A_2$? 
+        \item[(b)] Determine the sets $\bigcup_{n \in \mathbb{N}} A_n$ and $\bigcap_{n \in \mathbb{N}} A_n$.
+    \end{itemize}    
+
+%%%artificial pagebreak
+\newpage
+    
+    \item Show that if $f:A \to B$ and $E, F$ are subsets of $A$, then
+    \begin{itemize}
+        \item[(a)] $f(E \cup F) = f(E) \cup f(F)$
+        \item[(b)] $f(E \cap F) \subseteq f(E) \cap f(F)$
+    \end{itemize}    
+    Find an example of a function $f: \mathbb{R} \to \mathbb{R}$ and $E, F \subseteq \mathbb{R}$ such that the $\subseteq$ in (b) is in fact a $\subsetneq$. Next, can you think of a property of functions so that if $f$ possessed that property then it would follow that $f(E \cap F) = f(E) \cap f(F)$.
+
+    \item Show that if $f:A \to B$ and $G, H$ are subsets of $B$, then
+    \begin{itemize}
+        \item[(a)] $f^{-1}(G \cup H) = f^{-1}(G) \cup f^{-1}(H)$
+        \item[(b)] $f^{-1}(G \cap H) = f^{-1}(G) \cap f^{-1}(H)$
+    \end{itemize}  
+
+    \item 
+    \begin{itemize}
+        \item[(a)] Show that if $f : A \to B$ is injective and $K \subseteq A$, then $f^{-1}(f(K))=K$. Give an example to show that equality need not hold if $f$ is not injective.
+        \item[(b)]  Show that if $f : A \to B$ is onto and $L \subseteq B$, then $f(f^{-1}(L))=L$. Give an example to show that equality need not hold if $f$ is not onto.
+    \end{itemize}
+        
+    \item Let $f : A \to B$ and $g : B \to C$ be functions.
+    \begin{itemize}
+        \item[(a)] Show that if $g \circ f$ is one-to-one, then $f$ is one-to-one.
+        \item[(b)] Show that if $g \circ f$ is surjective, then $g$ is surjective.
+    \end{itemize}
+
+\item \#1.7 in Section 1.1\\
+Let $X$ be a set and assume $p \in X .$ Show that the collection $T,$ consisting of
+$\varnothing, X,$ and all subsets of $X$ containing $p,$ is a topology on $X .$ This topology is called the particular point topology on $X,$ and we denote it by $P P X_{P} .$
+\item \#1.8 in Section 1.1\\
+Let $X$ be a set and assume $p \in X .$ Show that the collection $T,$ consisting of
+$\varnothing, X,$ and all subsets of $X$ that exclude $p,$ is a topology on $X .$ This topology is called the excluded point topology on $X,$ and we denote it by $E P X_{p}$.
+\item \#1.9 in Section 1.1\\
+Let $\mathcal{T}$ consist of $\varnothing, \mathbb{R},$ and all intervals $(-\infty, p)$ for $p \in \mathbb{R} .$ Prove that $\mathcal{T}$ is a topology on $\mathbb{R}$
+\item \#1.10 in Section 1.2\\
+Show that $\mathcal{B}=\{[a, b) \subset \mathbb{R} | a<b\}$ is a basis for a topology on $\mathbb{R}$
+\item \#1.12 in Section 1.2\\
+Determine which of the following are open sets in $\mathbb{R}_{l} .$ In each case, prove your assertion.
+$$
+A=[4,5) \quad B=\{3\} \quad C=[1,2] \quad D=(7,8)
+$$
+
+\item Prove that $\R_\ell$ is strictly finer than the standard topology on $\R$.
+
+\item Given two topologies $\TT_1$ and $\TT_2$ on a given set $X$. What do you need to show to prove that the two topologies are not comparable? Prove that the upper limit topology and lower limit topology on $\R$ are not comparable. 
+
+\item \#1.15 in Section 1.2\\
+An arithmetic progression in $\mathbb{Z}$ is a set
+$$
+A_{a, b}=\{\ldots, a-2 b, a-b, a, a+b, a+2 b, \ldots\}
+$$
+with $a, b \in \mathbb{Z}$ and $b \neq 0 .$ Prove that the collection of arithmetic progressions
+$$
+\mathcal{A}=\left\{A_{a, b} | a, b \in \mathbf{Z} \text { and } b \neq 0\right\}
+$$
+is a basis for a topology on $\mathbb{Z}$. The resulting topology is called the arithmetic progression topology on $Z .$
+
+
+\end{enumerate}
+
+\end{document}
+
+
+%\item Let $D=\{d \in \mathbb{R} \mid \text{there is an integer } k \text{ such that } d=2^k\}$. Let $M(D)$ be the set of $3 \times 3$ matrices with real entries whose determinant is in $D$.
+%\begin{enumerate}
+%\item Prove: if $A \in M(D)$, then $A^{-1} \in M(D)$
+%\item Prove: if $A, B \in M(D)$, then $AB \in M(D)$
+%\end{enumerate}
+
+%\item Let $f : A \to B$ and $g : B \to C$. Prove: if $f$ and $g$ are bijective, then $g \circ f$ is bijective.
+
+%    \item The \emph{symmetric difference} of two sets $A$ and $B$ is the set (denoted by $A \Delta B$) of all elements that belong to either $A$ or $B$ but not to both. Represent $A \Delta B$ with a diagram. Prove that
+%    \[
+%    (A \setminus B) \cup (B \setminus A) = (A \cup B) \setminus (A \cap B)
+%    \]
+   
+%    \item Prove De Morgan's Laws for three given sets $A$, $B$ and $C$.     
+%    \begin{itemize}
+%        \item[(a)] $A \setminus (B \cup C) = (A \setminus B) \cap (A \setminus C)$ 
+%        \item[(b)] $A \setminus (B \cap C) = (A \setminus B) \cup (A \setminus C)$
+%    \end{itemize}
