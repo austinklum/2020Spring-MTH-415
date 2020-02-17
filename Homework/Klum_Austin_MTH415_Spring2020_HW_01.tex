@@ -145,12 +145,28 @@ Please include the statements of the problems in your HW submissions. For the Ex
         Let $ y \in f(E\cap F) $. So, $\exists x\in A$ such that $ x\in E $, $ x\in F $, and $ f(x)=y $. Since $ x\in E $ and $ x\in F $, we can say $ y\in f(E) $ and $ y\in f(F) $. Thus, $ y\in f(E)\cap f(F) $.\\
         Therefore, $f(E \cap F) \subseteq f(E) \cap f(F)$
     \end{itemize}    
-    Find an example of a function $f: \mathbb{R} \to \mathbb{R}$ and $E, F \subseteq \mathbb{R}$ such that the $\subseteq$ in (b) is in fact a $\subsetneq$. Next, can you think of a property of functions so that if $f$ possessed that property then it would follow that $f(E \cap F) = f(E) \cap f(F)$.
+    Find an example of a function $f: \mathbb{R} \to \mathbb{R}$ and $E, F \subseteq \mathbb{R}$ such that the $\subseteq$ in (b) is in fact a $\subsetneq$. Next, can you think of a property of functions so that if $f$ possessed that property then it would follow that $f(E \cap F) = f(E) \cap f(F)$.\\
+    \\
+    Consider the function $ f=x^2 $ with subsets $ E:=[-1,0] $ and $ F:=[0,1] $. Notice, $ f(E\cap F) = \{0\} $ where as $ f(E)\cap f(F) = (0,1)  $. If our function was injective then it would follow that $f(E \cap F) = f(E) \cap f(F)$.
 
     \item Show that if $f:A \to B$ and $G, H$ are subsets of $B$, then
     \begin{itemize}
-        \item[(a)] $f^{-1}(G \cup H) = f^{-1}(G) \cup f^{-1}(H)$
-        \item[(b)] $f^{-1}(G \cap H) = f^{-1}(G) \cap f^{-1}(H)$
+        \item[(a)] $f^{-1}(G \cup H) = f^{-1}(G) \cup f^{-1}(H)$\\
+        \wts{$f^{-1}(G \cup H) \subset f^{-1}(G) \cup f^{-1}(H)$ and $f^{-1}(G \cup H) \supset f^{-1}(G) \cup f^{-1}(H)$}
+        Let $x \in A $ such that $ f(x)\in G\cup H $. Then, $ x\in f^{-1}(G\cup H) $. Notice, $ f(x)\in G $ or $ f(x)\in H $. Taking the preimage of each set we have that, $ x\in f^{-1}(G) $ or $ x\in f^{-1}(H) $. Hence, $ x\in f^{-1}(G)\cup f^{-1}(H) $. Thus, $f^{-1}(G \cup H) \subset f^{-1}(G) \cup f^{-1}(H)$ \\
+        \\
+        Let $ x\in A $ such that $ x\in f^{-1}(G)\cup f^{-1}(H)$. Then, $ f(x)\in G $ or $f(x)\in H $. Hence, $ f(x)\in G\cup H $. Taking the preimage of this, we have that $ x\in f^{-1}(G\cup H) $. Thus,  $f^{-1}(G \cup H) = f^{-1}(G) \supset f^{-1}(H)$\\
+        \\
+        Thus, $f^{-1}(G \cup H) \subset f^{-1}(G) \cup f^{-1}(H)$ and $f^{-1}(G \cup H) \supset f^{-1}(G) \cup f^{-1}(H)$\\
+        Therefore, $f^{-1}(G \cup H) = f^{-1}(G) \cup f^{-1}(H)$
+        \item[(b)] $f^{-1}(G \cap H) = f^{-1}(G) \cap f^{-1}(H)$\\
+	     \wts{$f^{-1}(G \cap H) \subset f^{-1}(G) \cap f^{-1}(H)$ and $f^{-1}(G \cap H) \supset f^{-1}(G) \cap f^{-1}(H)$}
+	     Let $x \in A $ such that $ f(x)\in G\cap H $. Then, $ x\in f^{-1}(G\cap H) $. Notice, $ f(x)\in G $ and $ f(x)\in H $. Taking the preimage of each set we have that, $ x\in f^{-1}(G) $ and $ x\in f^{-1}(H) $. Hence, $ x\in f^{-1}(G)\cap f^{-1}(H) $. Thus, $f^{-1}(G \cap H) \subset f^{-1}(G) \cap f^{-1}(H)$ \\
+	     \\
+	     Let $ x\in A $ such that $ x\in f^{-1}(G)\cap f^{-1}(H)$. Then, $ f(x)\in G $ and $f(x)\in H $. Hence, $ f(x)\in G\cap H $. Taking the preimage of this, we have that $ x\in f^{-1}(G\cap H) $. Thus,  $f^{-1}(G \cap H) = f^{-1}(G) \supset f^{-1}(H)$\\
+	     \\
+	     Thus, $f^{-1}(G \cap H) \subset f^{-1}(G) \cap f^{-1}(H)$ and $f^{-1}(G \cap H) \supset f^{-1}(G) \cap f^{-1}(H)$\\
+	     Therefore, $f^{-1}(G \cap H) = f^{-1}(G) \cap f^{-1}(H)$
     \end{itemize}  
 
     \item 
