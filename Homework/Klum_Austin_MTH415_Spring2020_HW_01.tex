@@ -171,13 +171,23 @@ Please include the statements of the problems in your HW submissions. For the Ex
 
     \item 
     \begin{itemize}
-        \item[(a)] Show that if $f : A \to B$ is injective and $K \subseteq A$, then $f^{-1}(f(K))=K$. Give an example to show that equality need not hold if $f$ is not injective.
-        \item[(b)]  Show that if $f : A \to B$ is onto and $L \subseteq B$, then $f(f^{-1}(L))=L$. Give an example to show that equality need not hold if $f$ is not onto.
+        \item[(a)] Show that if $f : A \to B$ is injective and $K \subseteq A$, then $f^{-1}(f(K))=K$. Give an example to show that equality need not hold if $f$ is not injective.\\
+        \begin{proof}
+    		Let $ f:A\to B $ be an injective function and $ K\subseteq A $. Let $ k\in K $. Then, $ f(k)\in f(K) $ and so $ k\in f^{-1}(f(K)) $. Thus, $ K\subseteq f^{-1}(f(K)) $. We define, $ b := f(k)\in f(K) $. Since $ b\in f(K), \exists k'\in K $ such that $ f(k')=b $. Since  $f$ is injective and $ f(k) = b = f(k') $, we have that $ k = k' $. Thus, $ f^{-1}(f(K))\subseteq K $. Therefore, if $ f $ is injective, then $ f^{-1}(f(K)) = K $
+        \end{proof}
+    	Consider the function $ f:=x^2 $. Let $ K:=\{-1,0,1\} $. Then $ f(K)=\{0,1\} $ and so $ f^{-1}(f(K))=\{0,1\} $. Thus, $ K \neq f^{-1}(f(K)) $ when $ f $ is not injective.
+    	
+        \item[(b)]  Show that if $f : A \to B$ is onto and $L \subseteq B$, then $f(f^{-1}(L))=L$. Give an example to show that equality need not hold if $f$ is not onto.\\
+	     \begin{proof}
+	       	Let $ f:A\to B $ be an onto function and $ L\subseteq B $. Let $ l\in f(f^{-1}(L)) $. Then, $\exists x\in f^{-1}(L)$ such that $ f(x)=l\in L $. Thus, $ f(f^{-1}(L))\subseteq L $. As $ f $ is onto, $ l = f(x) \in f(f^{-1}(L)) $. Thus, $ L \subseteq f(f^{-1}(L)) $\\
+	       	Therefore, if $ f $ is onto, then $ f(f^{-1}(L))=L $ 
+	    \end{proof}
+    	Consider $ f:\N\to\N $ defined by $ f(x)=2x $
     \end{itemize}
         
     \item Let $f : A \to B$ and $g : B \to C$ be functions.
     \begin{itemize}
-        \item[(a)] Show that if $g \circ f$ is one-to-one, then $f$ is one-to-one.
+        \item[(a)] Show that if $g \circ f$ is one-to-one, then $f$ is one-to-one.\\
         \item[(b)] Show that if $g \circ f$ is surjective, then $g$ is surjective.
     \end{itemize}
 
