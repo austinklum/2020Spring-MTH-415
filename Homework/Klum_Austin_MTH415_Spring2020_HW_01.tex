@@ -133,7 +133,17 @@ Please include the statements of the problems in your HW submissions. For the Ex
     \item Show that if $f:A \to B$ and $E, F$ are subsets of $A$, then
     \begin{itemize}
         \item[(a)] $f(E \cup F) = f(E) \cup f(F)$
+        \begin{proof}
+        	\wts{$ f(E \cup F) \subseteq f(E) \cup f(F) $ and $ f(E \cup F) \supseteq f(E) \cup f(F)$ }
+        	Let $ y\in f(E\cup F) $. Hence, $ \exists x\in E \cup F$ such that $ f(x)=y $. Then, $ x\in E$ or $ x\in F $ and so $ y\in f(E) $ or $ y\in f(F) $. Thus, $ y\in f(E)\cup f(F) $. Therefore, $ f(E \cup F) \subseteq f(E) \cup f(F) $ \\
+        	\\
+        	Let $ y\in f(E)\cup f(F) $. So, $ y\in f(E) $ or $ y\in f(F) $. Then, $ \exists x\in E $ or $ x\in F $ such that $ f(x)=y $. Hence, $ x\in E\cup F.$ Thus $ y\in f(E\cup F) $. Therefore, $ f(E \cup F) \supseteq f(E) \cup f(F)$\\
+        	\\
+        	As the two are subsets of each other they must be equal. Therefore, $f(E \cup F) = f(E) \cup f(F)$
+        \end{proof}
         \item[(b)] $f(E \cap F) \subseteq f(E) \cap f(F)$
+        Let $ y \in f(E\cap F) $. So, $\exists x\in A$ such that $ x\in E $, $ x\in F $, and $ f(x)=y $. Since $ x\in E $ and $ x\in F $, we can say $ y\in f(E) $ and $ y\in f(F) $. Thus, $ y\in f(E)\cap f(F) $.\\
+        Therefore, $f(E \cap F) \subseteq f(E) \cap f(F)$
     \end{itemize}    
     Find an example of a function $f: \mathbb{R} \to \mathbb{R}$ and $E, F \subseteq \mathbb{R}$ such that the $\subseteq$ in (b) is in fact a $\subsetneq$. Next, can you think of a property of functions so that if $f$ possessed that property then it would follow that $f(E \cap F) = f(E) \cap f(F)$.
 
