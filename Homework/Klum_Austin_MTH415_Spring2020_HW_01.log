@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  17 FEB 2020 01:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  18 FEB 2020 23:28
 entering extended mode
 **./Klum_Austin_MTH415_Spring2020_HW_01.tex
 (Klum_Austin_MTH415_Spring2020_HW_01.tex
@@ -875,28 +875,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--182
 
  []
 
+[4]
+Overfull \hbox (14.42647pt too wide) in paragraph at lines 222--225
+[]\OT1/bch/m/n/12 Let $\OML/cmm/m/it/12 p \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 X
+$ \OT1/bch/m/n/12 and $\OMS/cmsy/m/n/12 T$ \OT1/bch/m/n/12 be a col-lec-tion co
+n-sist-ing of $\U/msb/m/n/12 ?\OML/cmm/m/it/12 ; X$ \OT1/bch/m/n/12 and the ope
+n sets $\OML/cmm/m/it/12 S[]; S[]; [] ; S[]$
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--229
 
  []
 
-[4] 
+
+Overfull \hbox (111.15634pt too wide) in paragraph at lines 229--233
+[]\OT1/bch/m/n/12 Let $\OMS/cmsy/m/n/12 T$ \OT1/bch/m/n/12 con-sist of $\U/msb/
+m/n/12 ?\OML/cmm/m/it/12 ; \U/bbold/m/n/12 R$\OT1/bch/m/n/12 , and all in-ter-v
+als $\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12  1\OML/cmm/m/it/12 ; p\OT1/cmr/m/n/12 )$
+ \OT1/bch/m/n/12 for $\OML/cmm/m/it/12 p \OMS/cmsy/m/n/12 2 \U/bbold/m/n/12 R$ 
+\OT1/bch/m/n/12 namely $\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12   []\OML/cmm/m/it/12 
+; p[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12   []
+\OML/cmm/m/it/12 ; p[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; [] ; \OT1/cmr/m/n/12 
+(\OMS/cmsy/m/n/12   []\OML/cmm/m/it/12 ; p[]\OT1/cmr/m/n/12 )$\OT1/bch/m/n/12 .
+ 
+ []
+
+[5] 
 AED: lastpage setting LastPage
-[5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 228.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 228.
+[6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
  (Klum_Austin_MTH415_Spring2020_HW_01.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 228.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 228.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
 Package rerunfilecheck Info: File `Klum_Austin_MTH415_Spring2020_HW_01.out' has
  not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 228.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
  ) 
 Here is how much of TeX's memory you used:
- 17533 strings out of 492484
- 322832 string characters out of 3131958
- 401870 words of memory out of 3000000
+ 17534 strings out of 492484
+ 322838 string characters out of 3131958
+ 401871 words of memory out of 3000000
  21442 multiletter control sequences out of 15000+200000
  25243 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -916,10 +937,10 @@ s/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmss12.pfb><D:/Programs/MiTek2.9
 .7269/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Programs/MiTek2.9.7269/font
 s/type1/public/amsfonts/cm/cmsy8.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/pub
 lic/amsfonts/symbols/msbm10.pfb>
-Output written on Klum_Austin_MTH415_Spring2020_HW_01.pdf (5 pages, 159994 byte
+Output written on Klum_Austin_MTH415_Spring2020_HW_01.pdf (6 pages, 171593 byte
 s).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
+ 122 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -182,34 +182,80 @@ Please include the statements of the problems in your HW submissions. For the Ex
 	       	Let $ f:A\to B $ be an onto function and $ L\subseteq B $. Let $ l\in f(f^{-1}(L)) $. Then, $\exists x\in f^{-1}(L)$ such that $ f(x)=l\in L $. Thus, $ f(f^{-1}(L))\subseteq L $. As $ f $ is onto, $ l = f(x) \in f(f^{-1}(L)) $. Thus, $ L \subseteq f(f^{-1}(L)) $\\
 	       	Therefore, if $ f $ is onto, then $ f(f^{-1}(L))=L $ 
 	    \end{proof}
-    	Consider $ f:\N\to\N $ defined by $ f(x)=2x $
+    	Consider $ f:\N\to\N $ defined by $ f(x)=2x $. Notice, $ f $ is not onto as all odd integers cannot be mapped from $ \N\to\N  $. Let $ L=\{1,2\} $. Thus, $ f^{-1}(L) $ cannot be represented. That is $ f(f^{-1}(L)) \subseteq L $ as $ L $ contains $ 1 $ while $ f(f^{-1}(L)) $ does not.
     \end{itemize}
         
     \item Let $f : A \to B$ and $g : B \to C$ be functions.
     \begin{itemize}
         \item[(a)] Show that if $g \circ f$ is one-to-one, then $f$ is one-to-one.\\
+        \wts{$ f $ is one-to-one}
+        \wts{If $f(a)=f(a')$ then $ a=a' $ for some $ a,a'\in A $}
+        Let $ g\circ f : A \to C $ be a one-to-one function and $ a,a'\in A $ such that $ g(f(a)) = g(f(a')) $. Notice,
+        \[g(f(a))=g(b)=c\]
+        \[g(f(a'))=g(b')=c'\]
+       Then, $ g^{-1}(c) = g^{-1}(c') $ That is $ b=b' $. So, $ f^{-1}(b)=f^{-1}(b') $. Hence, $ a=a' $. Thus, $ f(a)=f(a')\Rightarrow a=a' $\\
+       Therefore, $ f $ is one-to-one 
         \item[(b)] Show that if $g \circ f$ is surjective, then $g$ is surjective.
+        \wts{$ g $ is surjective}
+        \wts{$\forall c\in C,\exists b\in B, g(b)=c$}
+        Let $ g\circ f : A\to C $ be a surjective function and $ c\in C $. Since, $ g\circ f $ is surjective, $ \exists a\in A $ such that $ g(f(a)) = c $. Notice, $ f(a)=b $ for some $ b\in B $. So, $ g(b)=c $. \\
+        Therefore, $ g $ is surjective.
     \end{itemize}
 
 \item \#1.7 in Section 1.1\\
 Let $X$ be a set and assume $p \in X .$ Show that the collection $T,$ consisting of
 $\varnothing, X,$ and all subsets of $X$ containing $p,$ is a topology on $X .$ This topology is called the particular point topology on $X,$ and we denote it by $P P X_{P} .$
+\begin{proof}
+	\wts{$\TT$ is a topology}
+	\wts{i.) $ X,\varnothing \in \TT $\\
+		 ii.) If  $p\in X$ and $ S_1, S_2, \ldots, S_n \in \TT, \bigcap_{i=1}^n  p\in S_i\in \TT$ \\
+		iii.) If $ p\in X $ and $\{U_\alpha\}$ be a collection of open sets on $ X, \bigcup p\in U_\alpha \in \TT$ 
+ 	}
+ 	Let $ p\in X $ and $ \TT $ be a collection consisting of $ \varnothing,X $ and the open sets $S_1, S_2, \ldots, S_n$ in $ \TT $ such that $ p\in S_1, p\in S_2, \ldots, p\in S_n $\\
+ 	 Then, by definition $ X,\varnothing\in\TT $. Since every open set in $ \TT $ has the common element $ p $, we must have the $ p\in\bigcap_{i=1}^n S_i \in \TT $. Similarly, let $ I $ be an indexing set. Then, $p\in\bigcup_{\alpha\in I} S_\alpha \in \TT$, since each $ S_\alpha $ has the point $ p $, we have that any arbitrary union will have $ p $ as well. \\
+ 	 Therefore, $ \TT $ is a topology on $ X $
+\end{proof}
 \item \#1.8 in Section 1.1\\
 Let $X$ be a set and assume $p \in X .$ Show that the collection $T,$ consisting of
 $\varnothing, X,$ and all subsets of $X$ that exclude $p,$ is a topology on $X .$ This topology is called the excluded point topology on $X,$ and we denote it by $E P X_{p}$.
+\begin{proof}
+		Let $ p\in X $ and $ \TT $ be a collection consisting of $ \varnothing,X $ and the open sets $S_1, S_2, \ldots, S_n$ in $ \TT $ such that $ p\not\in S_1, p\not\in S_2, \ldots, p\not\in S_n $\\
+	Then, by definition $ X,\varnothing\in\TT $. Since every open set in $ \TT $ does not have the common element $ p $, we must have the $ p\not\in\bigcap_{i=1}^n S_i \in \TT $. Similarly, let $ I $ be an indexing set. Then, $p\not\in\bigcup_{\alpha\in I} S_\alpha \in \TT$, since each $ S_\alpha $ does not have the point $ p $, we have that any arbitrary union will not have $ p $ either. \\
+	Therefore, $ \TT $ is a topology on $ X $
+\end{proof}
 \item \#1.9 in Section 1.1\\
-Let $\mathcal{T}$ consist of $\varnothing, \mathbb{R},$ and all intervals $(-\infty, p)$ for $p \in \mathbb{R} .$ Prove that $\mathcal{T}$ is a topology on $\mathbb{R}$
+Let $\mathcal{T}$ consist of $\varnothing, \mathbb{R},$ and all intervals $(-\infty, p)$ for $p \in \mathbb{R} .$ Prove that $\mathcal{T}$ is a topology on $\mathbb{R}$\\
+\begin{proof}
+	Let $ \TT $ consist of $ \varnothing, \R $, and all intervals $ (-\infty, p) $ for $ p\in \R $ namely $ (-\inf,p_1), (-\inf,p_2),\ldots, (-\inf,p_n) $.\\
+	Then, by definition $ \R, \varnothing\in\TT $. We define $ P_{min}:= min(\{p_1,p_2,\ldots, p_n\})$. Notice, $ \bigcap_{i=1}^n (-\inf,p_i)$ = $ (-\inf, P_{min})\in\TT $.\\
+	Similarly, $ \bigcup_{i=1} (-\inf,p_i) = (-\inf, max\{p_i\}) \in \TT $. \\
+	Therefore, $ \TT $ is a topology on $ \R $. 
+\end{proof}
 \item \#1.10 in Section 1.2\\
 Show that $\mathcal{B}=\{[a, b) \subset \mathbb{R} | a<b\}$ is a basis for a topology on $\mathbb{R}$
+\begin{proof}
+	\wts{$ \forall x\in \R, \exists B\in\BB $ such that $ x\in B $\\
+		$ \forall B_1, B_2\in\BB $ and $ x\in B_1\cap B_2, \exists B_3 \in \BB$	such that $ x\in B_3 \subset B_1\cap B_2 $.	
+	}
+	Let $ \BB := \{[a, b) \subset \mathbb{R} | a<b\} $ and $ x \in \R $. Let $ B\in \BB $ such that $ B:=[x-1,x+1) $. Notice, $ x $ is the center of $ B $. So, $ x\in B $.\\
+	Let  $a,b,a',b' \in \R $ such that $ a<b $ and $ a'<b' $ Let $ B_1,B_2\in\BB $ such that $ B_1:=[a,b), B_2:=[a',b')$. We define $ a_{max}=max\{a,a'\} $ and $ b_{min}=min\{b,b'\}.$ So, $ B_3:=[a_{max},b_{min})$. Hence, $ x\in B_3\subset B_1\cap B_2 $.\\
+	Therefore, $ \BB $ is a basis for a topology on $ \R $
+\end{proof}
 \item \#1.12 in Section 1.2\\
-Determine which of the following are open sets in $\mathbb{R}_{l} .$ In each case, prove your assertion.
-$$
-A=[4,5) \quad B=\{3\} \quad C=[1,2] \quad D=(7,8)
-$$
+Determine which of the following are open sets in $\mathbb{R}_{l} .$ In each case, prove your assertion.\\
+$A=[4,5) \in \R_l $ as  $A\in \BB$ \\
+$B=\{3\},\not\in\R_l $ as open sets of $ R_l $ cannot be singleton sets.\\
+$C=[1,2], \not\in\R_l $ as $ C\not\in\BB $\\
+$D=(7,8) \in \R_l$ as $ (7,8)=\bigcup_{7<a<8} [a,8) $ 
+
 
 \item Prove that $\R_\ell$ is strictly finer than the standard topology on $\R$.
-
-\item Given two topologies $\TT_1$ and $\TT_2$ on a given set $X$. What do you need to show to prove that the two topologies are not comparable? Prove that the upper limit topology and lower limit topology on $\R$ are not comparable. 
+\begin{proof}
+	\wts{$ \R\subset \R_l $}.
+	Let $ (a,b)\in\R $ and $ \varepsilon < \frac{b-a}{2} $. Notice, $ (a,b) =\bigcup_{n\geq 1} [a+\frac{\varepsilon}{n},b)\in\R_\ell $. Thus, $ R_\ell $ is finer than the standard topology $ \R $. As $ [0,1)$ is not in the standard topology on $ \R $, yet $ [0,1) $ is in the lower limit topology, we must have that $ \R_\ell $ is strictly finer.
+\end{proof}
+\item Given two topologies $\TT_1$ and $\TT_2$ on a given set $X$. What do you need to show to prove that the two topologies are not comparable? Prove that the upper limit topology and lower limit topology on $\R$ are not comparable. \\
+In order to show two topologies are not comparable we need show $ \TT_1 \not\subset \TT_2 $ and $ \TT_2 \not\subset \TT_1 $
 
 \item \#1.15 in Section 1.2\\
 An arithmetic progression in $\mathbb{Z}$ is a set
