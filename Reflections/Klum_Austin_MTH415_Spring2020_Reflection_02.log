@@ -1,0 +1,462 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  24 FEB 2020 23:01
+entering extended mode
+**./Klum_Austin_MTH415_Spring2020_Reflection_02.tex
+(Klum_Austin_MTH415_Spring2020_Reflection_02.tex
+LaTeX2e <2019-10-01> patch level 3
+(D:\Programs\MiTek2.9.7269\tex/latex/base\article.cls
+Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
+(D:\Programs\MiTek2.9.7269\tex/latex/base\size10.clo
+File: size10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(D:\Programs\MiTek2.9.7269\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2019/11/16 v2.17d AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(D:\Programs\MiTek2.9.7269\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(D:\Programs\MiTek2.9.7269\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(D:\Programs\MiTek2.9.7269\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(D:\Programs\MiTek2.9.7269\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2858.
+LaTeX Info: Redefining \] on input line 2859.
+)
+(D:\Programs\MiTek2.9.7269\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(D:\Programs\MiTek2.9.7269\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(D:\Programs\MiTek2.9.7269\tex/latex/graphics\graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\Programs\MiTek2.9.7269\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(D:\Programs\MiTek2.9.7269\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\Programs\MiTek2.9.7269\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(D:\Programs\MiTek2.9.7269\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(D:\Programs\MiTek2.9.7269\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(D:\Programs\MiTek2.9.7269\tex/latex/tools\array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen114
+\ar@mcellbox=\box29
+\extrarowheight=\dimen115
+\NC@list=\toks20
+\extratabsurround=\skip46
+\backup@length=\skip47
+\ar@cellbox=\box30
+)
+(D:\Programs\MiTek2.9.7269\tex/latex/psnfss\charter.sty
+Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa) 
+)
+(D:\Programs\MiTek2.9.7269\tex/latex/geometry-de\geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(D:\Programs\MiTek2.9.7269\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(D:\Programs\MiTek2.9.7269\tex/generic/iftex\iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+(D:\Programs\MiTek2.9.7269\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+(D:\Programs\MiTek2.9.7269\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count100
+\Gm@cntv=\count101
+\c@Gm@tempcnt=\count102
+\Gm@bindingoffset=\dimen116
+\Gm@wd@mp=\dimen117
+\Gm@odd@mp=\dimen118
+\Gm@even@mp=\dimen119
+\Gm@layoutwidth=\dimen120
+\Gm@layoutheight=\dimen121
+\Gm@layouthoffset=\dimen122
+\Gm@layoutvoffset=\dimen123
+\Gm@dimlist=\toks21
+
+(D:\Programs\MiTek2.9.7269\tex/latex/geometry\geometry.cfg))
+(Klum_Austin_MTH415_Spring2020_Reflection_02.aux)
+\openout1 = `Klum_Austin_MTH415_Spring2020_Reflection_02.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Trying to load font information for OT1+bch on input line 2
+2.
+
+(D:\Programs\MiTek2.9.7269\tex/latex/psnfss\ot1bch.fd
+File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
+)
+(D:\Programs\MiTek2.9.7269\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count103
+\scratchdimen=\dimen124
+\scratchbox=\box31
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen125
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks23
+) (D:\Programs\MiTek2.9.7269\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2019-11-30 v2.9 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(48.42076pt, 517.45348pt, 48.42076pt)
+* v-part:(T,H,B)=(48.42076pt, 698.12846pt, 48.42076pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=517.45348pt
+* \textheight=698.12846pt
+* \oddsidemargin=-23.84923pt
+* \evensidemargin=-23.84923pt
+* \topmargin=-60.84923pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+
+(D:\Programs\MiTek2.9.7269\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+
+
+(D:\Programs\MiTek2.9.7269\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+[1
+
+{C:/Users/Austin Klum/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for OMS+bch on input line 1
+22.
+
+(D:\Programs\MiTek2.9.7269\tex/latex/psnfss\omsbch.fd
+File: omsbch.fd 
+)
+LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 186--197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--212
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 215--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--236
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 240--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--249
+
+ []
+
+<thm2.5.png, id=23, 2551.5325pt x 1892.06876pt>
+File: thm2.5.png Graphic file (type png)
+<use thm2.5.png>
+Package pdftex.def Info: thm2.5.png  used on input line 250.
+(pdftex.def)             Requested size: 383.68669pt x 284.52756pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--256
+
+ []
+
+[5 <./thm2.5.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 261--270
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--270
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--270
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--270
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 273--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--292
+
+ []
+
+[7] (Klum_Austin_MTH415_Spring2020_Reflection_02.aux) ) 
+Here is how much of TeX's memory you used:
+ 2790 strings out of 492484
+ 35163 string characters out of 3131958
+ 108029 words of memory out of 3000000
+ 7109 multiletter control sequences out of 15000+200000
+ 20460 words of font info for 44 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,6n,34p,666b,211s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/Programs/MiTek2.9.72
+69/fonts/enc/dvips/base/8r.enc}<D:/Programs/MiTek2.9.7269/fonts/type1/bitstrea/
+charter/bchb8a.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/bitstrea/charter/bchr
+8a.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/bitstrea/charter/bchri8a.pfb><D:/
+Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Programs/M
+iTek2.9.7269/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Programs/MiTek2.9.726
+9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Programs/MiTek2.9.7269/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/sy
+mbols/msbm10.pfb>
+Output written on Klum_Austin_MTH415_Spring2020_Reflection_02.pdf (7 pages, 697
+552 bytes).
+PDF statistics:
+ 64 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
