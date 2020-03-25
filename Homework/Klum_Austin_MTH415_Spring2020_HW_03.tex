@@ -1,0 +1,114 @@
+%This is a Latex file.
+\documentclass[12pt]{article}
+
+\usepackage{amsmath, amssymb, amsthm, amscd, amsfonts, dsfont}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{enumerate}
+\usepackage{url,hyperref}
+\usepackage{comment}
+\usepackage{multicol}
+\usepackage{latexsym,fancyhdr}
+\usepackage[margin=1in]{geometry}
+\usepackage{lastpage} % Required to determine the last page for the footer
+\usepackage{tikz}
+\usepackage{charter}
+\usepackage{bbold}
+
+\parindent 0pt
+
+\pagestyle{fancy} \lhead{\sf MTH 415} \chead{\sf Homework \#3}
+\rhead{\sf Due: Tuesday 03/31/2020} \lfoot{} \cfoot{} \rfoot{}
+
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+
+\renewcommand{\AA}{\mathcal{A}}
+\newcommand{\BB}{\mathcal{B}}
+\newcommand{\CC}{\mathcal{C}}
+\newcommand{\DD}{\mathcal{D}}
+\newcommand{\RR}{\mathcal{R}}
+\renewcommand{\SS}{\mathcal{S}}
+\newcommand{\TT}{\mathcal{T}}
+
+\newcommand{\wts}[1]{\textit{\textcolor{blue}{WTS: #1}}\\}
+\newcommand{\pg}{\textit{\textcolor{green}{PG: }}}
+\newcommand{\pn}{\textit{\textcolor{yellow}{PN: }}}
+\newcommand{\pb}{\textit{\textcolor{orange}{PB: }}}
+
+\begin{document}
+	\begin{enumerate}
+		
+		\item[2.23] Let $\mathcal{T}$ be the collection of subsets of $\mathbb{R}$ consisting of the empty set and every set whose complement is countable.\\
+		\\
+		(a) Show that $\mathcal{T}$ is a topology on $\R$. ( It is called the countable complement topology.)\\
+		(b) Show that the point 0 is a limit point of the set $A=\mathbb{R}-\{0\}$ in the countable complement topology.\\
+		(c) Show that in $A=\R-\{0\}$ there is no sequence converging to 0 in the countable complement topology.\\
+		
+		\item[2.26] Determine the boundary of each of the following subsets of $\mathbb{R}^{2}$ in the standard topology:\\
+		(a) $\quad A=\left\{(x, 0) \in \mathbb{R}^{2} | x \in \mathbb{R}\right\}$\\
+		
+		(b) $\quad B=\left\{(x, y) \in \mathbb{R}^{2} | x>0, y \neq 0\right\}$\\
+		
+		(c) $\quad C=\left\{\left(\frac{1}{n}, 0\right) \in \mathbb{R}^{2} | n \in \mathbb{Z}_{+}\right\}$\\
+		
+		(d) $D=\left\{(x, y) \in \mathbb{R}^{2} | 0 \leq x^{2}-y^{2}<1\right\}$\\
+		
+		\item[\pg2.28] Prove Theorem 2.15 : Let $A$ be a subset of a topological space $X .$\\
+		(a) $\partial A$ is closed.\\
+		
+		(b) $\partial A=Cl(A) \cap Cl(X-A)$\\
+		
+		(c) $\partial A \cap \operatorname{Int}(A)=\varnothing$\\
+		
+		(d) $\partial A \cup \operatorname{Int}(A)=C l(A)$\\
+		
+		(e) $\partial A \subset A$ if and only if $A$ is closed.\\
+		
+		(i) $\partial A \cap A=\varnothing$ if and only if $A$ is open.\\
+		
+		(g) $\partial A=\varnothing$ if and only if $A$ is both open and closed.\\
+		
+		\item[\pn3.01] Let $X=\left\{(x, 0) \in \mathbb{R}^{2} | x \in \mathbb{R}\right\},$ the $x$ -axis in the plane. Describe the topology that $X$ inherits as a subspace of $\mathbb{R}^{2}$ with the standard topology.
+		
+		\item[\pn3.02] Let $Y=[-1,1]$ have the standard topology. Which of the following sets are open in $Y$ and which are open in $\mathbb{R} ?$
+		$$
+		\begin{array}{l}
+		A=(-1,-1 / 2) \cup(1 / 2,1) \\
+		B=(-1,-1 / 2] \cup[1 / 2,1) \\
+		C=[-1,-1 / 2) \cup(1 / 2,1] \\
+		D=[-1,-1 / 2] \cup[1 / 2,1] \\
+		E=\bigcup_{n=1}^{\infty}\left(\frac{1}{1+n}, \frac{1}{n}\right)
+		\end{array}
+		$$
+		
+		\item[\pb3.03] Prove Theorem 3.4 : Let $X$ be a topological space, and let $Y \subset X$ have the subspace topology. Then $C \subset Y$ is closed in $Y$ if and only if $C=D \cap Y$ for some closed set $D$ in $X$.\\
+		\begin{proof}
+			
+		\end{proof}
+		
+		\item[\pn3.15] Prove Theorem 3.9: Let $X$ and $Y$ be topological spaces, and assume that
+		$A \subset X$ and $B \subset Y .$ Then the topology on $A \times B$ as a subspace of the product
+		$X \times Y$ is the same as the product topology on $A \times B,$ where $A$ has the subspace topology inherited from $X,$ and $B$ has the subspace topology inherited from $Y$.\\
+		\begin{proof}
+			
+		\end{proof}
+		
+		\item[\pb3.16] Let $S^{2}$ be the sphere, $D$ be the disk, $T$ be the torus, $S^{1}$ be the circle, and $I=[0,1]$ with the standard topology. Draw pictures of the product spaces $S^{2} \times I, T \times I, S^{1} \times I \times I,$ and $S^{1} \times D$
+		
+		\item[\pn3.18] Show that if $X$ and $Y$ are Hausdorff spaces, then so is the product space $X \times Y$.
+		\begin{proof}
+			
+		\end{proof}
+		
+		\item[\pb3.19] Show that if $A$ is closed in $X$ and $B$ is closed in $Y$, then $A \times B$ is closed in $X \times Y$.\\
+		\begin{proof}
+			
+		\end{proof}
+		
+	\end{enumerate}
+\end{document}
