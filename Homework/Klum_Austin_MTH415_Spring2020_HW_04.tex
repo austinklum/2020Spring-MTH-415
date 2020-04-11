@@ -1,0 +1,122 @@
+%This is a Latex file.
+\documentclass[12pt]{article}
+
+\usepackage{amsmath, amssymb, amsthm, amscd, amsfonts, dsfont}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{enumerate}
+\usepackage{url,hyperref}
+\usepackage{comment}
+\usepackage{multicol}
+\usepackage{latexsym,fancyhdr}
+\usepackage[margin=1in]{geometry}
+\usepackage{lastpage} % Required to determine the last page for the footer
+\usepackage{tikz}
+\usepackage{charter}
+\usepackage{bbold}
+
+\parindent 0pt
+
+\pagestyle{fancy} \lhead{\sf MTH 415} \chead{\sf Homework \#4}
+\rhead{\sf Due: Tuesday 04/14/2020} \lfoot{} \cfoot{} \rfoot{}
+
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+
+\renewcommand{\AA}{\mathcal{A}}
+\newcommand{\BB}{\mathcal{B}}
+\newcommand{\CC}{\mathcal{C}}
+\newcommand{\DD}{\mathcal{D}}
+\newcommand{\RR}{\mathcal{R}}
+\renewcommand{\SS}{\mathcal{S}}
+\newcommand{\TT}{\mathcal{T}}
+
+\newcommand{\wts}[1]{\textit{\textcolor{blue}{WTS: #1}}\\}
+\newcommand{\pg}{\textit{\textcolor{green}{PG: }}}
+\newcommand{\pn}{\textit{\textcolor{yellow}{PN: }}}
+\newcommand{\pb}{\textit{\textcolor{orange}{PB: }}}
+
+\begin{document}
+\begin{enumerate}
+		
+	\item[\pn3.25] Define a partition of $X=\mathbb{R}^{2}-\{O\}$ by taking each ray emanating from the origin as an element in the partition. (See Figure 3.25.) Which topological space that we have previously encountered appears to be topologically equivalent to the quotient space that results from this partition?\\
+	
+	\item[\pb3.27] Provide an example showing that a quotient space of a Hausdorff space need not be a Hausdorff space.\\
+	
+	\item[3.28] Consider the equivalence relation on $\mathbb{R}$ defined by 
+		\[x \sim y \text{ if } x-y \in \mathbb{Z}\]
+	Describe the quotient space that results from the partition of $\mathbb{R}$ into the equivalence classes in the equivalence relation.\\
+	
+	\item[\pn3.29] Consider the equivalence relation on $\mathbb{R}^{2}$ defined by 
+		\[\left(x_{1}, x_{2}\right) \sim\left(w_{1}, w_{2}\right) \text{ if } x_{1}+x_{2}=w_{1}+w_{2}\]
+	 Describe the quotient space that results from the partition of $\mathbb{R}^{2}$ into the equivalence classes in this equivalence relation.\\
+	
+	\item[\pn3.30] Consider the equivalence relation on $\mathbb{R}^{2}$ defined by
+	 	\[\left(x_{1}, x_{2}\right) \sim\left(w_{1}, w_{2}\right) \text{ if } x_{1}^{2}+x_{2}^{2}=w_{1}^{2}+w_{2}^{2}\] 
+	 Describe the quotient space that results from the partition of $\mathbb{R}^{2}$ into the equivalence classes in this equivalence relation.\\
+	
+	\item[3.33] In each of the following cases, describe or draw a picture of the resulting quotient space. Assume that points are identified only with themselves unless they are explicitly said to be identified with other points.
+	\begin{enumerate}
+		\item[(a)]The disk with its boundary points identified with each other to form a single point.\\
+		
+		\item[(b)] The circle $S^{1}$ with each pair of antipodal points identified with each other.\\
+		
+		\item[(c)] The interval $[0,4],$ as a subspace of $\mathbb{R},$ with integer points identified with each other.\\
+		
+		\item[(d)] The interval $[0,9],$ as a subspace of $\mathbb{R},$ with even integer points identified with each other to form a point and with odd integer points identified with each other to form a different point.\\
+		
+		\item[(e)] The real line $\mathbb{R}$ with [-1,1] collapsed to a point.\\
+		
+		\item[(f)] The real line $\mathbb{R}$ with [-2,-1]$\cup[1,2]$ collapsed to a point.\\
+		
+		\item[(g)] The real line $\mathbb{R}$ with (-1,1) collapsed to a point.\\
+		
+		\item[(h)] The plane $\mathbb{R}^{2}$ with the circle $S^{1}$ collapsed to a point.\\
+		
+		\item[(i)] The plane $\mathbb{R}^{2}$ with the circle $S^{1}$ and the origin collapsed to a point.\\
+		
+		\item[(j)] The sphere with the north and south pole identified with each other.\\
+		
+		\item[(k)] The sphere with the equator collapsed to a point.\\
+	
+	\end{enumerate}
+
+	\item[\pn4.01]
+	(a) Let $X$ have the discrete topology and $Y$ be an arbitrary topological space. Show that every function $f: X \rightarrow Y$ is continuous.\\
+	
+	(b) Let $Y$ have the trivial topology and $X$ be an arbitrary topological space. Show that every function $f: X \rightarrow Y$ is continuous.\\
+	
+	\item[\pg4.02] Prove Theorem 4.8: Let $X$ and $Y$ be topological spaces. A function $f: X \rightarrow Y$ is continuous if and only if $f^{-1}(C)$ is closed in $X$ for every closed set $C \subset Y$
+		\begin{proof}
+			Lorem Ipsum
+		\end{proof}
+	
+	\item[4.03] Show that a function $f: \mathbb{R} \rightarrow \mathbb{R}$ is continuous in the $\varepsilon-\delta$ definition of continuity if and only if, for every $x \in \mathbb{R}$ and every open set $U$ containing $f(x),$ there exists a neighborhood $V$ of $x$ such that $f(V) \subset U$\\
+	
+	\item[4.08] Let $f: X \rightarrow Y$ be a continuous function. If $x$ is a limit point of a subset $A$ of $X,$ is it true that $f(x)$ is a limit point of $f(A)$ in $Y ?$ Prove this or find a counterexample.\\
+	
+	\item[\pb4.09] Let $f, g: X \rightarrow Y$ be continuous functions. Assume that $Y$ is Hausdorff and that there exists a dense subset $D$ of $X$ such that $f(x)=g(x)$ for all $x \in D$ Prove that $f(x)=g(x)$ for all $x \in X$\\
+	
+	\item[4.10] Let $f: X \rightarrow Y$ be a function. The graph of $f$ is the subset of $X \times Y$ given by $G=\{(x, f(x)) | x \in X\} .$ Show that, if $f$ is continuous and $Y$ is Hausdorff, then $G$ is closed in $X \times Y$. (Note: In Exercise 7.13 we consider a converse of this result, assuming $Y$ also satisfies a property known as compactness.)\\
+	
+	\item[4.27] Provide an explicit formula for the stereographic projection function in Example 4.16\\
+	
+	\item[\pn4.28] Prove each of the following statements, and then use them to show that topological equivalence is an equivalence relation on the collection of all topological spaces:\\
+	(a) The function $i d: X \rightarrow X,$ defined by $i d(x)=x,$ is a homeomorphism.\\
+	(b) If $f: X \rightarrow Y$ is a homeomorphism, then so is $f^{-1}: Y \rightarrow X$\\
+	(c) If $f: X \rightarrow Y$ and $g: Y \rightarrow Z$ are homeomorphisms, then so is the composition $g \circ f: X \rightarrow Z$\\
+	
+	\item[\pb4.32] Show that homeomorphism preserves interior, closure, and boundary as indicated in the following implications:\\
+	(a) If $f: X \rightarrow Y$ is a homeomorphism, then $f(\ln t(A))=\operatorname{Int}(f(A))$ for every $A \subset X$\\
+	(b) If $f: X \rightarrow Y$ is a homeomorphism, then $f(\mathrm{Cl}(A))=\mathrm{Cl}(f(A))$ for every $A \subset X$\\
+	(c) If $f: X \rightarrow Y$ is a homeomorphism, then $f(\partial(A))=\partial(f(A))$ for every $A \subset X$\\
+	
+	
+
+
+\end{enumerate}
+\end{document}
