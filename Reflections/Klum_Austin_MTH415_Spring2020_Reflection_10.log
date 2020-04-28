@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  15 APR 2020 00:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  20 APR 2020 23:21
 entering extended mode
-**./Klum_Austin_MTH415_Spring2020_HW_04.tex
-(Klum_Austin_MTH415_Spring2020_HW_04.tex
+**./Klum_Austin_MTH415_Spring2020_Reflection_10.tex
+(Klum_Austin_MTH415_Spring2020_Reflection_10.tex
 LaTeX2e <2019-10-01> patch level 3
 (D:\Programs\MiTek2.9.7269\tex/latex/base\article.cls
 Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
-(D:\Programs\MiTek2.9.7269\tex/latex/base\size12.clo
-File: size12.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+(D:\Programs\MiTek2.9.7269\tex/latex/base\size11.clo
+File: size11.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -139,15 +139,25 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen115
 \Gin@req@width=\dimen116
 )
+(D:\Programs\MiTek2.9.7269\tex/latex/tools\array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen117
+\ar@mcellbox=\box29
+\extrarowheight=\dimen118
+\NC@list=\toks27
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box30
+)
 (D:\Programs\MiTek2.9.7269\tex/latex/tools\verbatim.sty
 Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks27
-\verbatim@line=\toks28
+\every@verbatim=\toks28
+\verbatim@line=\toks29
 \verbatim@in@stream=\read1
 )
 (D:\Programs\MiTek2.9.7269\tex/latex/tools\enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks29
+\@enLab=\toks30
 )
 (D:\Programs\MiTek2.9.7269\tex/latex/url\url.sty
 \Urlmuskip=\muskip11
@@ -206,7 +216,7 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (D:\Programs\MiTek2.9.7269\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen117
+\@linkdim=\dimen119
 \Hy@linkcounter=\count100
 \Hy@pagecounter=\count101
 
@@ -232,7 +242,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4788.
 \c@Hy@tempcnt=\count103
 LaTeX Info: Redefining \url on input line 5147.
-\XeTeXLinkMargin=\dimen118
+\XeTeXLinkMargin=\dimen120
 
 (D:\Programs\MiTek2.9.7269\tex/generic/oberdiek\bitset.sty
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
@@ -242,8 +252,8 @@ Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count104
-\Field@Width=\dimen119
-\Fld@charsize=\dimen120
+\Field@Width=\dimen121
+\Fld@charsize=\dimen122
 Package hyperref Info: Hyper figures OFF on input line 6418.
 Package hyperref Info: Link nesting OFF on input line 6423.
 Package hyperref Info: Hyper index ON on input line 6426.
@@ -282,7 +292,7 @@ Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip49
+\Hy@SectionHShift=\skip51
 )
 (D:\Programs\MiTek2.9.7269\tex/latex/comment\comment.sty
 \CommentStream=\write3
@@ -291,28 +301,26 @@ Excluding comment 'comment')
 (D:\Programs\MiTek2.9.7269\tex/latex/tools\multicol.sty
 Package: multicol 2019/03/01 v1.8w multicolumn formatting (FMi)
 \c@tracingmulticols=\count110
-\mult@box=\box29
-\multicol@leftmargin=\dimen121
+\mult@box=\box31
+\multicol@leftmargin=\dimen123
 \c@unbalance=\count111
 \c@collectmore=\count112
 \doublecol@number=\count113
 \multicoltolerance=\count114
 \multicolpretolerance=\count115
-\full@width=\dimen122
-\page@free=\dimen123
-\premulticols=\dimen124
-\postmulticols=\dimen125
-\multicolsep=\skip50
-\multicolbaselineskip=\skip51
-\partial@page=\box30
-\last@line=\box31
-\maxbalancingoverflow=\dimen126
-\mult@rightbox=\box32
-\mult@grightbox=\box33
-\mult@gfirstbox=\box34
-\mult@firstbox=\box35
-\@tempa=\box36
-\@tempa=\box37
+\full@width=\dimen124
+\page@free=\dimen125
+\premulticols=\dimen126
+\postmulticols=\dimen127
+\multicolsep=\skip52
+\multicolbaselineskip=\skip53
+\partial@page=\box32
+\last@line=\box33
+\maxbalancingoverflow=\dimen128
+\mult@rightbox=\box34
+\mult@grightbox=\box35
+\mult@gfirstbox=\box36
+\mult@firstbox=\box37
 \@tempa=\box38
 \@tempa=\box39
 \@tempa=\box40
@@ -328,75 +336,29 @@ Package: multicol 2019/03/01 v1.8w multicolumn formatting (FMi)
 \@tempa=\box50
 \@tempa=\box51
 \@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
 \c@minrows=\count116
 \c@columnbadness=\count117
 \c@finalcolumnbadness=\count118
-\last@try=\dimen127
-\multicolovershoot=\dimen128
-\multicolundershoot=\dimen129
-\mult@nat@firstbox=\box53
-\colbreak@box=\box54
+\last@try=\dimen129
+\multicolovershoot=\dimen130
+\multicolundershoot=\dimen131
+\mult@nat@firstbox=\box55
+\colbreak@box=\box56
 \mc@col@check@num=\count119
-)
-(D:\Programs\MiTek2.9.7269\tex/latex/base\latexsym.sty
-Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
-\symlasy=\mathgroup7
-LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
-(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
-)
-(D:\Programs\MiTek2.9.7269\tex/latex/fancyhdr\fancyhdr.sty
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip52
-\f@nch@O@elh=\skip53
-\f@nch@O@erh=\skip54
-\f@nch@O@olh=\skip55
-\f@nch@O@orh=\skip56
-\f@nch@O@elf=\skip57
-\f@nch@O@erf=\skip58
-\f@nch@O@olf=\skip59
-\f@nch@O@orf=\skip60
-)
-(D:\Programs\MiTek2.9.7269\tex/latex/geometry-de\geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
-
-(D:\Programs\MiTek2.9.7269\tex/generic/iftex\ifpdf.sty
-Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-)
-(D:\Programs\MiTek2.9.7269\tex/generic/iftex\ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-)
-(D:\Programs\MiTek2.9.7269\tex/generic/iftex\ifxetex.sty
-Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-)
-\Gm@cnth=\count120
-\Gm@cntv=\count121
-\c@Gm@tempcnt=\count122
-\Gm@bindingoffset=\dimen130
-\Gm@wd@mp=\dimen131
-\Gm@odd@mp=\dimen132
-\Gm@even@mp=\dimen133
-\Gm@layoutwidth=\dimen134
-\Gm@layoutheight=\dimen135
-\Gm@layouthoffset=\dimen136
-\Gm@layoutvoffset=\dimen137
-\Gm@dimlist=\toks30
-
-(D:\Programs\MiTek2.9.7269\tex/latex/geometry\geometry.cfg))
-(D:\Programs\MiTek2.9.7269\tex/latex/lastpage\lastpage.sty
-Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 (D:\Programs\MiTek2.9.7269\tex/latex/pgf/frontendlayer\tikz.sty
 (D:\Programs\MiTek2.9.7269\tex/latex/pgf/basiclayer\pgf.sty
 (D:\Programs\MiTek2.9.7269\tex/latex/pgf/utilities\pgfrcs.sty
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks31
-\pgfutil@tempdima=\dimen138
-\pgfutil@tempdimb=\dimen139
+\pgfutil@tempdima=\dimen132
+\pgfutil@tempdimb=\dimen133
 
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/utilities\pgfutil-common-lists.tex))
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box55
+\pgfutil@abb=\box57
 
 (D:\Programs\MiTek2.9.7269\tex/latex/ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
@@ -419,26 +381,26 @@ Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks34
 ))
-\pgf@x=\dimen140
-\pgf@y=\dimen141
-\pgf@xa=\dimen142
-\pgf@ya=\dimen143
-\pgf@xb=\dimen144
-\pgf@yb=\dimen145
-\pgf@xc=\dimen146
-\pgf@yc=\dimen147
-\pgf@xd=\dimen148
-\pgf@yd=\dimen149
+\pgf@x=\dimen134
+\pgf@y=\dimen135
+\pgf@xa=\dimen136
+\pgf@ya=\dimen137
+\pgf@xb=\dimen138
+\pgf@yb=\dimen139
+\pgf@xc=\dimen140
+\pgf@yc=\dimen141
+\pgf@xd=\dimen142
+\pgf@yd=\dimen143
 \w@pgf@writea=\write4
 \r@pgf@reada=\read2
-\c@pgf@counta=\count123
-\c@pgf@countb=\count124
-\c@pgf@countc=\count125
-\c@pgf@countd=\count126
+\c@pgf@counta=\count120
+\c@pgf@countb=\count121
+\c@pgf@countc=\count122
+\c@pgf@countd=\count123
 \t@pgf@toka=\toks35
 \t@pgf@tokb=\toks36
 \t@pgf@tokc=\toks37
-\pgf@sys@id@count=\count127
+\pgf@sys@id@count=\count124
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2019/08/03 v3.1.4b (3.1.4b)
 )
@@ -452,8 +414,8 @@ File: pgfsys-common-pdf.def 2019/08/03 v3.1.4b (3.1.4b)
 ))) (D:\Programs\MiTek2.9.7269\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfsyssoftpath@smallbuffer@items=\count128
-\pgfsyssoftpath@bigbuffer@items=\count129
+\pgfsyssoftpath@smallbuffer@items=\count125
+\pgfsyssoftpath@bigbuffer@items=\count126
 )
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2019/08/03 v3.1.4b (3.1.4b)
@@ -481,9 +443,9 @@ Package: pgfcore 2019/08/03 v3.1.4b (3.1.4b)
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/math\pgfmathcalc.code.tex
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/math\pgfmathutil.code.tex)
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen150
-\pgfmath@count=\count130
-\pgfmath@box=\box56
+\pgfmath@dimen=\dimen144
+\pgfmath@count=\count127
+\pgfmath@box=\box58
 \pgfmath@toks=\toks38
 \pgfmath@stack@operand=\toks39
 \pgfmath@stack@operation=\toks40
@@ -506,54 +468,54 @@ e.tex)
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/math\pgfmathfunctions.integerarithme
 tics.code.tex)))
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count131
+\c@pgfmathroundto@lastzeros=\count128
 ))
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/math\pgfint.code.tex)
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@picminx=\dimen151
-\pgf@picmaxx=\dimen152
-\pgf@picminy=\dimen153
-\pgf@picmaxy=\dimen154
-\pgf@pathminx=\dimen155
-\pgf@pathmaxx=\dimen156
-\pgf@pathminy=\dimen157
-\pgf@pathmaxy=\dimen158
-\pgf@xx=\dimen159
-\pgf@xy=\dimen160
-\pgf@yx=\dimen161
-\pgf@yy=\dimen162
-\pgf@zx=\dimen163
-\pgf@zy=\dimen164
+\pgf@picminx=\dimen145
+\pgf@picmaxx=\dimen146
+\pgf@picminy=\dimen147
+\pgf@picmaxy=\dimen148
+\pgf@pathminx=\dimen149
+\pgf@pathmaxx=\dimen150
+\pgf@pathminy=\dimen151
+\pgf@pathmaxy=\dimen152
+\pgf@xx=\dimen153
+\pgf@xy=\dimen154
+\pgf@yx=\dimen155
+\pgf@yy=\dimen156
+\pgf@zx=\dimen157
+\pgf@zy=\dimen158
 )
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code
 .tex
 File: pgfcorepathconstruct.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@path@lastx=\dimen165
-\pgf@path@lasty=\dimen166
+\pgf@path@lastx=\dimen159
+\pgf@path@lasty=\dimen160
 )
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@shorten@end@additional=\dimen167
-\pgf@shorten@start@additional=\dimen168
+\pgf@shorten@end@additional=\dimen161
+\pgf@shorten@start@additional=\dimen162
 ) (D:\Programs\MiTek2.9.7269\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfpic=\box57
-\pgf@hbox=\box58
-\pgf@layerbox@main=\box59
-\pgf@picture@serial@count=\count132
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count129
 )
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.
 tex
 File: pgfcoregraphicstate.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgflinewidth=\dimen169
+\pgflinewidth=\dimen163
 )
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/basiclayer\pgfcoretransformations.co
 de.tex
 File: pgfcoretransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@pt@x=\dimen170
-\pgf@pt@y=\dimen171
-\pgf@pt@temp=\dimen172
+\pgf@pt@x=\dimen164
+\pgf@pt@y=\dimen165
+\pgf@pt@temp=\dimen166
 )
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2019/08/03 v3.1.4b (3.1.4b)
@@ -567,20 +529,20 @@ File: pgfcorepathprocessing.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfarrowsep=\dimen173
+\pgfarrowsep=\dimen167
 )
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@max=\dimen174
-\pgf@sys@shading@range@num=\count133
-\pgf@shadingcount=\count134
+\pgf@max=\dimen168
+\pgf@sys@shading@range@num=\count130
+\pgf@shadingcount=\count131
 )
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfexternal@startupbox=\box60
+\pgfexternal@startupbox=\box62
 )) (D:\Programs\MiTek2.9.7269\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
@@ -595,15 +557,15 @@ File: pgfcorerdf.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )))
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfnodeparttextbox=\box61
+\pgfnodeparttextbox=\box63
 )
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
 (D:\Programs\MiTek2.9.7269\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@nodesepstart=\dimen175
-\pgf@nodesepend=\dimen176
+\pgf@nodesepstart=\dimen169
+\pgf@nodesepend=\dimen170
 )
 (D:\Programs\MiTek2.9.7269\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
@@ -616,8 +578,8 @@ Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
 Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
 
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/math\pgfmath.code.tex)
-\pgffor@iter=\dimen177
-\pgffor@skip=\dimen178
+\pgffor@iter=\dimen171
+\pgffor@skip=\dimen172
 \pgffor@stack=\toks41
 \pgffor@toks=\toks42
 ))
@@ -627,33 +589,33 @@ Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/libraries\pgflibraryplothandlers.cod
 e.tex
 File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@plot@mark@count=\count135
-\pgfplotmarksize=\dimen179
+\pgf@plot@mark@count=\count132
+\pgfplotmarksize=\dimen173
 )
-\tikz@lastx=\dimen180
-\tikz@lasty=\dimen181
-\tikz@lastxsaved=\dimen182
-\tikz@lastysaved=\dimen183
-\tikz@lastmovetox=\dimen184
-\tikz@lastmovetoy=\dimen185
-\tikzleveldistance=\dimen186
-\tikzsiblingdistance=\dimen187
-\tikz@figbox=\box62
-\tikz@figbox@bg=\box63
-\tikz@tempbox=\box64
-\tikz@tempbox@bg=\box65
-\tikztreelevel=\count136
-\tikznumberofchildren=\count137
-\tikznumberofcurrentchild=\count138
-\tikz@fig@count=\count139
+\tikz@lastx=\dimen174
+\tikz@lasty=\dimen175
+\tikz@lastxsaved=\dimen176
+\tikz@lastysaved=\dimen177
+\tikz@lastmovetox=\dimen178
+\tikz@lastmovetoy=\dimen179
+\tikzleveldistance=\dimen180
+\tikzsiblingdistance=\dimen181
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count133
+\tikznumberofchildren=\count134
+\tikznumberofcurrentchild=\count135
+\tikz@fig@count=\count136
 
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfmatrixcurrentrow=\count140
-\pgfmatrixcurrentcolumn=\count141
-\pgf@matrix@numberofcolumns=\count142
+\pgfmatrixcurrentrow=\count137
+\pgfmatrixcurrentcolumn=\count138
+\pgf@matrix@numberofcolumns=\count139
 )
-\tikz@expandcount=\count143
+\tikz@expandcount=\count140
 
 (D:\Programs\MiTek2.9.7269\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlib
 rarytopaths.code.tex
@@ -664,25 +626,51 @@ Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa)
 Package: bbold 1994/04/06 Bbold symbol package
 LaTeX Font Info:    Redeclaring math alphabet \mathbb on input line 42.
 )
-(Klum_Austin_MTH415_Spring2020_HW_04.aux)
-\openout1 = `Klum_Austin_MTH415_Spring2020_HW_04.aux'.
+(D:\Programs\MiTek2.9.7269\tex/latex/geometry-de\geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Trying to load font information for OT1+bch on input line 4
-5.
+(D:\Programs\MiTek2.9.7269\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(D:\Programs\MiTek2.9.7269\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+(D:\Programs\MiTek2.9.7269\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count141
+\Gm@cntv=\count142
+\c@Gm@tempcnt=\count143
+\Gm@bindingoffset=\dimen182
+\Gm@wd@mp=\dimen183
+\Gm@odd@mp=\dimen184
+\Gm@even@mp=\dimen185
+\Gm@layoutwidth=\dimen186
+\Gm@layoutheight=\dimen187
+\Gm@layouthoffset=\dimen188
+\Gm@layoutvoffset=\dimen189
+\Gm@dimlist=\toks43
+
+(D:\Programs\MiTek2.9.7269\tex/latex/geometry\geometry.cfg))
+(Klum_Austin_MTH415_Spring2020_Reflection_10.aux)
+\openout1 = `Klum_Austin_MTH415_Spring2020_Reflection_10.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Trying to load font information for OT1+bch on input line 3
+8.
 
 (D:\Programs\MiTek2.9.7269\tex/latex/psnfss\ot1bch.fd
 File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
@@ -690,23 +678,23 @@ File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
 (D:\Programs\MiTek2.9.7269\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count144
-\scratchdimen=\dimen188
-\scratchbox=\box66
+\scratchdimen=\dimen190
+\scratchbox=\box68
 \nofMPsegments=\count145
 \nofMParguments=\count146
-\everyMPshowfont=\toks43
+\everyMPshowfont=\toks44
 \MPscratchCnt=\count147
-\MPscratchDim=\dimen189
+\MPscratchDim=\dimen191
 \MPnumerator=\count148
 \makeMPintoPDFobject=\count149
-\everyMPtoPDFconversion=\toks44
+\everyMPtoPDFconversion=\toks45
 ) (D:\Programs\MiTek2.9.7269\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2019-11-30 v2.9 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-\AtBeginShipoutBox=\box67
-Package hyperref Info: Link coloring OFF on input line 45.
+\AtBeginShipoutBox=\box69
+Package hyperref Info: Link coloring OFF on input line 38.
 
 (D:\Programs\MiTek2.9.7269\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -719,16 +707,17 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count150
 )
-LaTeX Info: Redefining \ref on input line 45.
-LaTeX Info: Redefining \pageref on input line 45.
-LaTeX Info: Redefining \nameref on input line 45.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
 
-(Klum_Austin_MTH415_Spring2020_HW_04.out)
-(Klum_Austin_MTH415_Spring2020_HW_04.out)
+(Klum_Austin_MTH415_Spring2020_Reflection_10.out)
+(Klum_Austin_MTH415_Spring2020_Reflection_10.out)
 \@outlinefile=\write5
-\openout5 = `Klum_Austin_MTH415_Spring2020_HW_04.out'.
+\openout5 = `Klum_Austin_MTH415_Spring2020_Reflection_10.out'.
 
 
+ABD: EveryShipout initializing macros
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -737,23 +726,23 @@ LaTeX Info: Redefining \nameref on input line 45.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* h-part:(L,W,R)=(48.42076pt, 517.45348pt, 48.42076pt)
+* v-part:(T,H,B)=(48.42076pt, 698.12846pt, 48.42076pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \textwidth=517.45348pt
+* \textheight=698.12846pt
+* \oddsidemargin=-23.84923pt
+* \evensidemargin=-23.84923pt
+* \topmargin=-60.84923pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=44.0pt
+* \marginparwidth=59.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -763,209 +752,131 @@ LaTeX Info: Redefining \nameref on input line 45.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 45.
-ABD: EveryShipout initializing macros
-LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
 
 (D:\Programs\MiTek2.9.7269\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
 
 
 (D:\Programs\MiTek2.9.7269\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 48
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 42
 .
 
 (D:\Programs\MiTek2.9.7269\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 48
-.
-
-(D:\Programs\MiTek2.9.7269\tex/latex/base\ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Trying to load font information for U+bbold on input line 4
-8.
-
-(D:\Programs\MiTek2.9.7269\tex/latex/jknappen\ubbold.fd
-File: ubbold.fd 1996/01/01 Blackboard Bold Font Definition File (jk)
-)
-Underfull \hbox (badness 10000) in paragraph at lines 50--53
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
+Overfull \hbox (17.11624pt too wide) in paragraph at lines 53--103
+[][] 
+ []
+
+[1
+
+{C:/Users/Austin Klum/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 118--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 118--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 118--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 118--127
 
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 14.49998pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[1{C:/Users/Austin Klum/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 130--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 130--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 140--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 140--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 140--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
+Underfull \hbox (badness 10000) in paragraph at lines 140--147
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 115--121
+Underfull \hbox (badness 10000) in paragraph at lines 151--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--130
+Underfull \hbox (badness 10000) in paragraph at lines 151--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--141
+Underfull \hbox (badness 10000) in paragraph at lines 151--156
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--169
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--169
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 187--189
-
- []
-
-
-AED: lastpage setting LastPage
-[5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
- (Klum_Austin_MTH415_Spring2020_HW_04.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
-Package rerunfilecheck Info: File `Klum_Austin_MTH415_Spring2020_HW_04.out' has
- not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
+ (Klum_Austin_MTH415_Spring2020_Reflection_10.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
+Package rerunfilecheck Info: File `Klum_Austin_MTH415_Spring2020_Reflection_10.
+out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 192.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
  ) 
 Here is how much of TeX's memory you used:
- 17462 strings out of 492484
- 322036 string characters out of 3131958
- 400935 words of memory out of 3000000
- 21406 multiletter control sequences out of 15000+200000
- 14712 words of font info for 48 fonts, out of 3000000 for 9000
+ 17334 strings out of 492484
+ 320140 string characters out of 3131958
+ 394810 words of memory out of 3000000
+ 21291 multiletter control sequences out of 15000+200000
+ 19902 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,12n,54p,532b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Programs/MiTek2.9.7269/fonts/enc/dvips/base/8r.enc} <C:\Users\Austin Klum
-\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/bbold/dpi600\bbold12.pk><D:/Pr
-ograms/MiTek2.9.7269/fonts/type1/bitstrea/charter/bchr8a.pfb><D:/Programs/MiTek
-2.9.7269/fonts/type1/bitstrea/charter/bchri8a.pfb><D:/Programs/MiTek2.9.7269/fo
-nts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/
-public/amsfonts/cm/cmr12.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsf
-onts/cm/cmr6.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmr8
-.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmss12.pfb><D:/P
-rograms/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Programs/Mi
-Tek2.9.7269/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Programs/MiTek2.9.7269
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Programs/MiTek2.9.7269/fonts/type
-1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Klum_Austin_MTH415_Spring2020_HW_04.pdf (5 pages, 128296 byte
-s).
+ 60i,6n,54p,447b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/Programs/MiTek2.9.7269/fonts/enc/dvips/base/8r.enc}<D:/Programs/MiTek2.9.
+7269/fonts/type1/bitstrea/charter/bchb8a.pfb><D:/Programs/MiTek2.9.7269/fonts/t
+ype1/bitstrea/charter/bchr8a.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/bitstre
+a/charter/bchri8a.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Progra
+ms/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Programs/MiTek2.9.
+7269/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Programs/MiTek2.9.7269/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Klum_Austin_MTH415_Spring2020_Reflection_10.pdf (3 pages, 107
+094 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
+ 69 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

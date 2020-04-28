@@ -1,0 +1,160 @@
+\documentclass[10pt]{article}
+
+
+\usepackage{amsmath, amssymb, amsthm, amscd, amsfonts, dsfont}
+\usepackage{mathrsfs}
+\usepackage{graphicx,array}
+\usepackage{verbatim}
+\usepackage{enumerate}
+\usepackage{url,hyperref}
+\usepackage{comment}
+\usepackage{multicol}
+\usepackage{tikz}
+\usepackage{charter}
+\usepackage{bbold}
+
+\setlength\extrarowheight{6pt}
+
+
+\pagestyle{empty}
+\thispagestyle{empty}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                         ADJUST MARGINS
+\usepackage[margin=0.67in]{geometry} % Makes margins 1in. Remove or comment out (with percent) if you want.
+
+\begin{document}
+
+\begin{center}
+\Large \bfseries MTH 415 \textcolor{blue}{UPDATED} Weekly Reflection Activity Cover Sheet\\ 
+{\it Due \underline{every Monday} by 11:30pm in Canvas}\\ 
+\smallskip
+\it Name/Section/Date/Submission \# \fbox{{\Large Austin Klum MTH-415 2020/03/30 }}
+\end{center}
+
+{\bf Effective learners} regularly self-assess their progress and then adjust study strategies in response. This reflection will help you to analyze your week's performance and help you on your path to improving your learning strategies.
+
+\begin{enumerate}
+
+\item What study techniques have you used in the last week:\\
+	
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		 {\bf Strategy} & {\bf Never} & {\bf Once} & {\bf Multiple (How many?)}\\
+		\hline
+		Identified and Removed Distractions While Studying &&X&\\
+		\hline
+		Studied in well-spaced blocks of time &&&3\\
+		\hline
+		Studied in blocks of time not exceeding 60 mins &&&2\\
+		\hline
+		Worked on Making/Taking Self-Timed Short Quizzes &X&&\\
+		\hline
+		\hline
+
+
+		Studied Theorems and Definitions in Text&&&3\\
+		\hline 
+		Made Notes While Studying Text \& Online&&&2\\
+		\hline 
+		Worked on Error Analysis&&X&\\
+		\hline 
+		\hline
+		 
+		Studied and Reworked Exemplary Worked Examples in Text &X&&\\
+		\hline 
+		Studied and Reworked Examples/Proofs from Lecture Notes &X&&\\
+		\hline 
+		Studied and Reworked Worked Examples found Online &X&&\\
+		\hline 
+		\hline
+
+
+		Made/Generated/Produced Questions this week &&X&\\
+		\hline
+		Answered Questions generated this week &X&&\\
+		\hline
+		\hline
+		
+		Online Office Hours with Dr. Das &&X&\\
+		\hline		
+		Asked Questions during Online Office Hours &X&&\\
+		\hline
+		\hline
+		
+		Other strategies (may describe in reflection) &&X&\\
+		&&&\\
+		\hline
+		
+			
+	\end{tabular}
+
+\item How many hours did you schedule for MTH 415 study this week? How many hours did you actually study this week? Suggestions for improvement, if appropriate.
+\vfill
+I spent close to 6 hours ``working" on topology. Of those 6 around 4 of them were intense and focused. I plan on setting 6-8pm my designated topology time at least three or four times a week.
+\item How many hours did you participate during online office hours? Suggestions for improvement, if appropriate.
+\vfill
+One, but that's all that was offered. I need to make a greater effort to actively participate too! I'll definitely be making use of this in the future.
+
+\end{enumerate}
+
+\newpage
+The next few sections are for long-form responses. They involve working on your Mathematical Present, making connections with your Mathematical Past, and grasping towards your Mathematical Future.
+
+\section*{Active Reading:}
+
+This week I finally took the deep dive into chapter 3. These three sections are all about creating new spaces out of all ones. This is done through taking subsets of spaces creating subspaces, taking the cross product of two spaces, and use a function to describe to map a known space into a new space. \\
+\\
+I've struggled with how open sets and closed sets are defined in the subspace and product topologies. Open sets in the subspace $ Y $ is as follows: We say that $ V\subset Y $ is open in $ Y $ if $ V $ is an open set in in the subspace topology on $ Y \mathbb{R} $. I feel like this definition is mostly useless. Its like using the word to define the word. (e.g What does Spectacularly mean? It means to do something spectacular.) This isn't a helpful definition. Are open sets in $ Y $ not necessarily open in $ X $?\\
+\includegraphics*[scale=.4]{Open-Sets-in-Y.png}
+ \\
+ Looking at this picture, is the shaded pink part the open set that is in $ Y $. So the open set is not $ U$, but instead something else entirely, a subset of $ U $?\\
+\\
+In the same vein, closed sets are defined even worse. The following being the books definition: We say that a set $ C\subset Y $ \textbf{is closed in} $ Y $ if $ C $ is closed in the subspace topology on $ Y $. Again this is like saying the door is closed in the kitchen if the door is closed. Yes slightly different, but does not give us anything more to work with besides semantics.\\
+\\
+The theorem following helps make this more clear though. Theorem 3.4: $ C\subset Y $ is closed in $ Y $ if and only if $ C=D\cap Y $ for some closed set $ D $ in $ X $. After writing this, it actually has helped solidify the connection between open sets in $ Y $ and closed sets in $ Y $. I think it would've been more clear to me if the open definition had something similar. Say $ U $ is open in $ Y $ if and only if $ U=V\cap Y $ for some open set $ V $ in $ X $.\\
+\\
+Using this new way of describing them I can see how they actually relate. Luckily the rule if the complement is open then the set is closed still applies in the subspace topology. This allows us to more easily switch between open sets and closed sets.\\
+\\
+This chapter has also made me need to look up and review how cross products distribute with intersections, unions, and complements. There has been several instances where a simply distribution is needed to make progress and further describe the topologies.\\
+\\
+I thought the way we draw topologies is very interesting. Right now I'm a little confused on it, but it is helpful to see the topologies drawn out physically. The biggest thing is getting your mind to visualize the bending and folding of the spaces.
+
+
+\section*{Error-Analysis:}
+This error-analysis will largely be looking over exam 1. I was overall happy with my score, but I can always do better.\\
+\\
+My first error was on $ 1(k) $ which is about the infinite comb and the limit points being contained in the comb. What I was thinking was that since, the comb approached zero, it contained all it's limit points. Notice the word approach, clearly this means it never quite reaches zero, and the limit point are outside of $ C $.\\
+\\
+My next error was on $ 2(a) $. I remember really struggling with this one and skipping it. I even circled the question to remind myself to come back to the problem. The key describes $ \bigcap^\infty_n=1 (0,1+\frac{1}{n}) $ which when intersected is $ (0,1] $ which is not open. This is a really clever way to find such a family of open sets. This approaches 0 and so forms a closed set.\\
+\\
+Another error made was on $ 2(d) $. I think the big issue with this problem was that fact that we used finite. The finite complement, the countable complement, topologist's sine curve, and infinite comb all are a struggle to wrap my head around. When I try thinking of what is going on I get lost. So the big issue with this problem was not being able to visual and truly understand what the topology was that I was working with.\\
+\\
+In $ 2(e) $, I struggled with the limit points of the given set. I was confused since I kept coming to the conclusion that all the points would be limit points in the set. Reviewing the answer key has helped me understand it is simply $\{1/k|k\in\mathbb{Z}^+\}\cup\{0\} $. I always seem to forget the $ \cdots\cup\{0\} $\\
+\\
+On to the proofs, for the most part my definitions were solid. There was some awkward sentences and structure plus some minor details about which space I was working with. I also did a good job on the first proof. I remembered some set theory facts and was able to quickly prove the given statement. \\
+The second proof didn't go as smoothly. This was a little frustrating since I had seen and worked on this proof before and shouldn't have gotten hung up like that. I think it was primarily the nerves and it being the final question. I should do more self timed tests to help simulate what is needed on the actual exams. Overall, the proof structure was there, but was missing some key details.
+
+\section*{Consumers to Producers:}
+This week I designed more flash cards for the new definitions found in Section 3.1, 3.2, and 3.3. Once, I have physical access to a printer I will print of my study guide that I have also been creating. This study guide contains more or less the theorems and definitions, plus a few examples that I found particularly helpful.\\
+\\
+I finally got a good start on homework 03 and am close to finishing. These problems are getting a little more complex and have more layers behind them. One tool I've been using to help understand what's going on is drawing out on my tablet what I think is going on. This is helpful most of the time, but can get messy for some problems.
+
+\section*{Failing \& Succeeding}
+This week has been better in terms of topology. (Everything else still kinda sucks). I worked on topology four different times in the best week. Which I think might be a record number of visiting the material. By visiting the material often I find the class is much more on my mind and allows my subconscious to work on problems.\\
+\\
+I am super pleased with my results on the first exam. This was by far my highest grade I've ever received on any 400 level math class. This gives me hope that I can make it through the semester and do well in my course. I spent almost all of my free time on the days leading up to the exam studying topology. I worked on definitions (I also made physical flash cards for the first time ever), practice proofs, and discussed concepts with others. All this effort definitely showed on the exam. Sadly, I didn't study for my STAT-245 class nearly enough and did abysmally. Luckily I can earn some points back and use my other grades as a buffer. But I definitely can't be doing that again!\\
+\\
+One failure I have experienced is using my topology time effectively. This week I worked on topology more times than ever before, but the time used was probably the least effective than ever before. Part of this is due to school not really starting yet again, but that is no excuse. A lot of the time spent on topology was also interrupted by thoughts of the virus, social media, and other less challenging/ more comfortable topics.\\
+\\
+My hopes is this new timer system helps keep me accountable and focused. I'd rather work with intensity and get it over with, than spend all night working on it. 
+
+%\vskip18cm
+\section*{Notes to Yourself:}
+I have recently downloaded a Pomodoro timer and tracker onto my laptop. I have a hard time staying focused on topology. I feel like this is because I find it challenging to think about topology plus sustain this effort. My thoughts will often wonder even while working a problem. I get stuck often and usually don't have too many ideas to try to get unstuck.\\
+\\
+ With this timer, it runs for 25 minutes and then has me take a 5 minute break walking around the room. This helps me keep a high level of focus while also allowing me to get up and move around at regular intervals.\\
+ \\
+  It also helps me keep track of how much time I actually spend doing topology or am stuck on a certain problem. If the 25 minutes go up and I am not significantly further, I then move on to the next problem. This is beneficial because a lot of the time I end up wasting time on a problem. If I make a note that I am stuck, I can then ask others for help later.
+
+
+\end{document} 

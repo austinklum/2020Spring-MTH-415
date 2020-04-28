@@ -40,25 +40,29 @@
 \newcommand{\pn}{\textit{\textcolor{yellow}{PN: }}}
 \newcommand{\pb}{\textit{\textcolor{orange}{PB: }}}
 
+\newcommand{\1}{^{-1}}
+
 \begin{document}
 \begin{enumerate}
 		
-	\item[\pn3.25] Define a partition of $X=\mathbb{R}^{2}-\{O\}$ by taking each ray emanating from the origin as an element in the partition. (See Figure 3.25.) Which topological space that we have previously encountered appears to be topologically equivalent to the quotient space that results from this partition?\\
+	\item[n3.25] Define a partition of $X=\mathbb{R}^{2}-\{O\}$ by taking each ray emanating from the origin as an element in the partition. (See Figure 3.25.) Which topological space that we have previously encountered appears to be topologically equivalent to the quotient space that results from this partition?\\
+	 It appears to be topologically equivalent to the projective line, which is the set points on $ \R^2 $ which lie in the same line.
+	\item[3.27] Provide an example showing that a quotient space of a Hausdorff space need not be a Hausdorff space.\\
+	Recall $ \R $ and $ \Q $ with the standard topology.  Consider the equivalence relation on $\mathbb{R}$ that partitions $\R$ into $ \R - \Q $ and $ \Q $. Notice, the resulting quotient space consists of two singleton points, which are not open. Thus, this quotient space is not Hausdorff.\\
+	Therefore, we have provided an example showing that a quotient space of a Hausdorff space need not be a Hausdorff space.\\
 	
-	\item[\pb3.27] Provide an example showing that a quotient space of a Hausdorff space need not be a Hausdorff space.\\
-	
-	\item[3.28] Consider the equivalence relation on $\mathbb{R}$ defined by 
+	\item[3.28] Consider the equivalence relation on $ \R $ defined by
 		\[x \sim y \text{ if } x-y \in \mathbb{Z}\]
 	Describe the quotient space that results from the partition of $\mathbb{R}$ into the equivalence classes in the equivalence relation.\\
 	
-	\item[\pn3.29] Consider the equivalence relation on $\mathbb{R}^{2}$ defined by 
+	\item[3.29] Consider the equivalence relation on $\mathbb{R}^{2}$ defined by 
 		\[\left(x_{1}, x_{2}\right) \sim\left(w_{1}, w_{2}\right) \text{ if } x_{1}+x_{2}=w_{1}+w_{2}\]
 	 Describe the quotient space that results from the partition of $\mathbb{R}^{2}$ into the equivalence classes in this equivalence relation.\\
-	
-	\item[\pn3.30] Consider the equivalence relation on $\mathbb{R}^{2}$ defined by
+	The resulting quotient space is $ \R $. Define $ p: \R^2\to\R$ with $ (x,y) \mapsto x+y $.
+	\item[3.30] Consider the equivalence relation on $\mathbb{R}^{2}$ defined by
 	 	\[\left(x_{1}, x_{2}\right) \sim\left(w_{1}, w_{2}\right) \text{ if } x_{1}^{2}+x_{2}^{2}=w_{1}^{2}+w_{2}^{2}\] 
 	 Describe the quotient space that results from the partition of $\mathbb{R}^{2}$ into the equivalence classes in this equivalence relation.\\
-	
+	The resulting quotient space is a $ \R_{\geq 0} $. Define, $ p: \R \mapsto \R_{\geq 0} $ with $ (x,y)=x^2+y^2 $.
 	\item[3.33] In each of the following cases, describe or draw a picture of the resulting quotient space. Assume that points are identified only with themselves unless they are explicitly said to be identified with other points.
 	\begin{enumerate}
 		\item[(a)]The disk with its boundary points identified with each other to form a single point.\\
@@ -85,37 +89,103 @@
 	
 	\end{enumerate}
 
-	\item[\pn4.01]
+	\item[4.01]
 	(a) Let $X$ have the discrete topology and $Y$ be an arbitrary topological space. Show that every function $f: X \rightarrow Y$ is continuous.\\
-	
-	(b) Let $Y$ have the trivial topology and $X$ be an arbitrary topological space. Show that every function $f: X \rightarrow Y$ is continuous.\\
-	
-	\item[\pg4.02] Prove Theorem 4.8: Let $X$ and $Y$ be topological spaces. A function $f: X \rightarrow Y$ is continuous if and only if $f^{-1}(C)$ is closed in $X$ for every closed set $C \subset Y$
 		\begin{proof}
-			Lorem Ipsum
+			Let $X$ have the discrete topology, $Y$ be an arbitrary topological space, and $f: X \rightarrow Y$. Since $ X $ has the discrete topology every subset of $ X $ is open in $ X $. Let $ V\subset Y $. Notice, $ f^{-1}(V)\subset X $ by definition. Hence, $ f^{-1}(V) $ is open in $ X $.\\
+			Therefore, $ f $ is continuous.
+		\end{proof}
+	(b) Let $Y$ have the trivial topology and $X$ be an arbitrary topological space. Show that every function $f: X \rightarrow Y$ is continuous.\\
+		\begin{proof}
+			Let $Y$ have the trivial topology, $X$ be an arbitrary topological space, and $f: X \rightarrow Y$. Recall, that the only open sets in $ Y $ are $ \varnothing $ and $ Y $ by the definition of the trivial topology. Observe,
+			\begin{align*}
+				f\1(\varnothing)&=\varnothing\\
+				f\1(Y)&=X
+			\end{align*}
+			Both of which are open in $ X $.\\
+			Therefore, $ f $ is continuous.
+		\end{proof}
+	\item[4.02] Prove Theorem 4.8: Let $X$ and $Y$ be topological spaces. A function $f: X \rightarrow Y$ is continuous if and only if $f^{-1}(C)$ is closed in $X$ for every closed set $C \subset Y$
+		\begin{proof}
+			$ (\Rightarrow)$ \wts{if $ f $ is continuous and $ \forall C\subset Y $ such that $ C $ is closed, then $ f\1(C) $ is closed. }
+			Assume $ f:X\to Y $ is continuous and $ C $ is closed in $ Y $. Then, $ Y-C $ is open in $ Y $. It follows that $ f\1(Y-C) $ is open in $ X $. Observe,
+			\begin{align*}
+				f\1(Y-C) &= f\1(Y)-f\1(C), \text{ Theorem 0.22}\\
+						   &= X - f\1(C)
+			\end{align*}
+			So, $ X-f\1(C) $ is open in $ X $. Hence, $ f\1(C) $ must be closed.\\
+			Thus, $ f\1(C) $ is closed in $ X $ for every closed set $ C\subset Y $.\\
+		\\
+		$(\Leftarrow)$ \wts{if $ f\1(C) $ is closed in $ X $ for ever closed set $ C\subset Y $, then $ f: X \rightarrow Y $ is continuous.}
+		Assume $ f\1(C) $ is closed in $ X $ for every closed set $ C\subset Y $. Define $ V := Y-C $ and note that $ V\in Y $ and is open in $ Y $. Observe,
+			\begin{align*}
+				 f\1(V) &= f\1(Y-C)\\
+						&= f\1(Y) - f\1(C)\\
+						&= X - f\1(C)
+			\end{align*}
+		So, $ f\1(C) $ is closed in $ X $. Then, $ X-f\1(C) $ is open in $ X $.\\
+		Thus, $ f $ is continuous.\\
+		\\
+		Therefore, a function $f: X \rightarrow Y$ is continuous if and only if $f^{-1}(C)$ is closed in $X$ for every closed set $C \subset Y$
 		\end{proof}
 	
 	\item[4.03] Show that a function $f: \mathbb{R} \rightarrow \mathbb{R}$ is continuous in the $\varepsilon-\delta$ definition of continuity if and only if, for every $x \in \mathbb{R}$ and every open set $U$ containing $f(x),$ there exists a neighborhood $V$ of $x$ such that $f(V) \subset U$\\
 	
-	\item[4.08] Let $f: X \rightarrow Y$ be a continuous function. If $x$ is a limit point of a subset $A$ of $X,$ is it true that $f(x)$ is a limit point of $f(A)$ in $Y ?$ Prove this or find a counterexample.\\
+	\begin{proof}
+		$ (\Rightarrow) $ \wts{if $ f $ is continuous and $ \forall x\in\R $, and $ \forall U \subset \R $ such that $ f(x)\in U $, $ \exists V\in \R $ such that $ x\in V $ with $ f(V)\subset U $ }
+	\end{proof}
 	
-	\item[\pb4.09] Let $f, g: X \rightarrow Y$ be continuous functions. Assume that $Y$ is Hausdorff and that there exists a dense subset $D$ of $X$ such that $f(x)=g(x)$ for all $x \in D$ Prove that $f(x)=g(x)$ for all $x \in X$\\
+	\item[4.08] Let $f: X \rightarrow Y$ be a continuous function. If $x$ is a limit point of a subset $A$ of $X,$ is it true that $f(x)$ is a limit point of $f(A)$ in $Y ?$ Prove this or find a counterexample.\\
+	\\
+	Suppose $ f $ is a constant function. Namely, $ \forall x\in X , f(x)=y$. Then, for any $ x'\in A' $, $ f(x')=y $. Since $ f(A) $ has only one point, that point cannot be a limit point. 
+	\item[4.09] Let $f, g: X \rightarrow Y$ be continuous functions. Assume that $Y$ is Hausdorff and that there exists a dense subset $D$ of $X$ such that $f(x)=g(x)$ for all $x \in D$ Prove that $f(x)=g(x)$ for all $x \in X$\\
+	By way of contradiction, suppose $ \exists x\in X $ such that $ f(x)\not = g(x) $. Let $ U,V\subset Y $ such that $ f(x)\in U $ and $ g(x) \in V$. Notice, $ f\1(U) $ and $ g\1(V) $ are open in $ X $. Define $ W := f\1(U)\cap g\1(V) $. $ W $ is non-empty as $ x\in f\1(U) $ and $x\in g\1(V)$. Then, $ W\cap D = \varnothing $. But $ Cl(D)=X $ since $ D $ is dense. This contradicts Theorem 2.4(iii)\\
+	Thus, $ f(x) = g(x) $ for all $ x\in X $
 	
 	\item[4.10] Let $f: X \rightarrow Y$ be a function. The graph of $f$ is the subset of $X \times Y$ given by $G=\{(x, f(x)) | x \in X\} .$ Show that, if $f$ is continuous and $Y$ is Hausdorff, then $G$ is closed in $X \times Y$. (Note: In Exercise 7.13 we consider a converse of this result, assuming $Y$ also satisfies a property known as compactness.)\\
 	
 	\item[4.27] Provide an explicit formula for the stereographic projection function in Example 4.16\\
 	
-	\item[\pn4.28] Prove each of the following statements, and then use them to show that topological equivalence is an equivalence relation on the collection of all topological spaces:\\
+	\item[4.28] Prove each of the following statements, and then use them to show that topological equivalence is an equivalence relation on the collection of all topological spaces:\\
 	(a) The function $i d: X \rightarrow X,$ defined by $i d(x)=x,$ is a homeomorphism.\\
+	By definition, $ id $ is a bijection. Let $ U\subset X $. So, $ id(U)=U $ which is open in $ X $. Since $ id $ is a bijection, $ id\1(U)=U $ which is open. \\
+	Thus, $ id,id\1 $ are continuous.\\
+	Therefore, $id $ is a homeomorphism.\\
 	(b) If $f: X \rightarrow Y$ is a homeomorphism, then so is $f^{-1}: Y \rightarrow X$\\
+	Assume $ f: X\to Y$ is a homeomorphism and $ V\subset Y $ be open. Then, $ f\1(V) $ is open in $ X $. Notice, $ f^{-1^{-1}}(V)=f(V) $ which is open in $ Y $.\\
+	Thus, $ f\1 $ is continuous.
+	Therefore, $ f\1 $ is a homeomorphism.
 	(c) If $f: X \rightarrow Y$ and $g: Y \rightarrow Z$ are homeomorphisms, then so is the composition $g \circ f: X \rightarrow Z$\\
 	
-	\item[\pb4.32] Show that homeomorphism preserves interior, closure, and boundary as indicated in the following implications:\\
+	\item[4.32] Show that homeomorphism preserves interior, closure, and boundary as indicated in the following implications:\\
 	(a) If $f: X \rightarrow Y$ is a homeomorphism, then $f(\ln t(A))=\operatorname{Int}(f(A))$ for every $A \subset X$\\
+	Assume $ f:X\to Y $ is a homeomorphism and $ A\subset X $. Let $ x\in Int(A) $ such that $ f(x)\in Int(A) $, and $ U\subset X $ such that $ x\in U \subset A $. Hence, $ f(U) $ is open in $ Y $. Since, $ f $ is a homeomorphism we have that $ f(x)\in f(U)\subset f(A) $. By theorem 2.4(ii), $ f(x)\in Int(f(A)) $.\\
+	Thus, $ f(Int(A))\subset Int(f(A)) $\\
+	\\
+	Let $ x\in Int(f(A)) $ and $ U\subset f(A) $ such that $ x\in U$. Notice, $ f\1(x)\in f\1(U)\subset A $. So, $ f\1(U) $ is open in $ X $. By Theorem 2.4(ii), $ f\1(x)\in Int(A) $ and so $ x\in f(Int(A)) $\\
+	Thus, $ Int(f(A))\subset f(Int(A)) $\\
+	\\
+	Therefore, $f(\ln t(A))=\operatorname{Int}(f(A))$ for every $A \subset X$
+	 
 	(b) If $f: X \rightarrow Y$ is a homeomorphism, then $f(\mathrm{Cl}(A))=\mathrm{Cl}(f(A))$ for every $A \subset X$\\
+	Assume $ f: X\to Y $ is a homeomorphism and $ A\subset X $.\\
+	Recall, $ A\subset Cl(A) $ which implies $ f(A) \subset f(Cl(A)) $.\\
+	Since, $ Cl(f(A)) $ is the smallest closed set containing $f(A)$ we have $ f(A)\subset Cl(f(A)) $.\\
+	Hence, from the previous two we must have $ Cl(f(a)) \subset f(Cl(A))$.\\
+	Going in the other direction, as $ f $ is a homeomorphism, $ f^{-1} $ maps closed set to closed set. Since, $ Cl(f(A))  $ is closed in $ Y $ we have $ f^{-1}(Cl(f(A))) $ being closed in $ X $. Observe,
+	\[f(a)\subset Cl(f(A)) \Rightarrow f^{-1}(f(A))\subset f^{-1}(Cl(f(A))) \Rightarrow A \subset f^{-1}(Cl(f(A))) \]
+	As $ Cl(A) $ is the smallest closed set in $ X $ we have that $ Cl(A) \subset f^{-1}(Cl(f(A))) $ which gives us $ f(Cl(A)) \subset Cl(f(A)) $.\\
+	Thus, as $ f (\mathrm{Cl}(A)) $ and $ \mathrm{Cl}(f(A)) $ are subsets of each other they must be equal\\
+	Therefore, $ f(\mathrm{Cl}(A)) = \mathrm{Cl}(f(A))$
 	(c) If $f: X \rightarrow Y$ is a homeomorphism, then $f(\partial(A))=\partial(f(A))$ for every $A \subset X$\\
-	
-	
+	Assume $ f: X\to Y $ is a homeomorphism and $ A\subset X $. Observe,
+	\begin{align*}
+		f(\partial A) &= f(Cl(A)-Int(A))\\
+					  &= f(Cl(A))-f(Int(A))\\
+					  &= Cl(f(A))-Int(f(A)), \text{ by previous results (a),(b)}\\
+					  &=\partial f(A)
+	\end{align*}
+	Thus, $f(\partial(A))=\partial(f(A))$ for every $A \subset X$\\
 
 
 \end{enumerate}
