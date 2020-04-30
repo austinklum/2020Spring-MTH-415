@@ -1,0 +1,276 @@
+%This is a Latex file.
+\documentclass[12pt]{article}
+
+\usepackage{amsmath, amssymb, amsthm, amscd, amsfonts, dsfont}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{enumerate}
+\usepackage{url,hyperref}
+\usepackage{comment}
+\usepackage{multicol}
+\usepackage{latexsym,fancyhdr}
+\usepackage[margin=1in]{geometry}
+\usepackage{lastpage} % Required to determine the last page for the footer
+\usepackage{tikz}
+\usepackage{charter}
+\usepackage{bbold}
+
+\parindent 0pt
+
+\pagestyle{fancy} \lhead{\sf MTH 415} \chead{\sf Homework \#5}
+\rhead{\sf Due: Tuesday 04/28/2020} \lfoot{} \cfoot{} \rfoot{}
+
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+
+\renewcommand{\AA}{\mathcal{A}}
+\newcommand{\BB}{\mathcal{B}}
+\newcommand{\CC}{\mathcal{C}}
+\newcommand{\DD}{\mathcal{D}}
+\newcommand{\RR}{\mathcal{R}}
+\renewcommand{\SS}{\mathcal{S}}
+\newcommand{\TT}{\mathcal{T}}
+
+\newcommand{\wts}[1]{\textit{\textcolor{blue}{WTS: #1}}\\}
+\newcommand{\pg}{\textit{\textcolor{green}{PG: }}}
+\newcommand{\pn}{\textit{\textcolor{yellow}{PN: }}}
+\newcommand{\pb}{\textit{\textcolor{orange}{PB: }}}
+
+\newcommand{\1}{^{-1}}
+
+\begin{document}
+\begin{enumerate}
+		
+	\item[5.01] Show that the taxicab metric on $\mathbb{R}^{2}$ satisfies the properties of a metric.\\
+		(i) Let $ (x_1,y_1),(x_2,y_2)\in \R^2 $. Notice, $ |x_1-x_2| + |y_1 - y_2| \geq 0$ as absolute values are always non-negative and addition of non-negatives is always non-negative.
+	Thus, condition (i) holds.\\
+	 (ii) Let $ x,y\in \R^2 $. Observe.
+		\begin{align*}
+			d(x,y) &= |x_1-y_1|+|x_2-y_2|\\
+					&= |y_1-x_1|+|y_2-x_2|\\
+					&= d(y,x)
+		\end{align*}
+	Thus, (ii) holds.\\
+	(iii) Let $ x,y,z \in \R^2 $. Observe.
+	\begin{align*}
+		d(x,z) &= |x_1-z_1|+|x_2-z_2|\\
+				&= |x_1-y_1+y_1-z_1|+|x_2-y_2+y_2-z_2|\\
+				&\leq |x_1-y_1|+|y_1-z_1|+|x_2-y_2|+|y_2-z_2|\\
+				&=    |x_1-y_1|+|x_2-y_2|+|y_1-z_1|+|y_2-z_2|\\
+				&= d(x,y)+d(y,z)
+	\end{align*}
+	Thus, (iii) holds.\\
+	\\
+	Thus, all three conditions of a metric are met.\\
+	Therefore, the taxicab metric is a metric.
+	\item[5.02] (a) Show that the max metric on $\mathbb{R}^{2}$ satisfies the properties of a metric.\\
+	(i) Notice, we are taking the max value of an absolute value which are non-negative. Hence, for $ x,y\in \R^2 , d(x,y)\geq 0$. \\ 
+	Thus, (i) holds.\\
+	(ii) Let $ x,y\in \R^2 $. Observe.
+	\begin{align*}
+		d(x,y) &= max\{|x_1-y_1|,|x_2-y_2|\}\\
+				&= max\{|y_1-x_1|,|y_2-x_2|\}\\
+				&= d(y,x)
+	\end{align*}
+	Thus, (ii) holds.\\
+	(iii) Let $ x,y,z \in \R^2 $. Observe.
+	\begin{align*}
+		d(x,z)  &= max\{|x_1-z_1|,|x_2-z_2|\}\\
+				&= max\{|x_1-y_1+y_1-z_1|,|x_2-y_2+y_2-z_2|\}\\
+				&\leq \max\{|x_1-y_1|+|y_1-z_1|,|x_2-y_2|+|y_2-z_2|\}\\
+				&= |x_i-y_i|+|y_i-z_i| \\
+				&\text{ where $ i $ with value 1 or 2 holds the maximum value}\\
+		|x_i-y_i|&\leq max\{|x_1-y_1|,|x_2-y_2|\}\\
+		|y_i-z_i|&\leq max\{|y_1-z_1|,|y_2-z_2|\}
+	\end{align*}
+	So, 
+	\[d(x,z) \leq max\{|x_1-y_1|,|x_2-y_2|\} + max\{|y_1-z_1|,|y_2-z_2|\}=d(x,y)+d(y,z)\]
+	Thus, (iii) holds.\\
+	Thus, all three conditions of a metric are met.\\
+	Therefore, the max metric is a metric.\\
+	\\
+	(b) Explain why $d(p, q)=\min \left\{\left|p_{1}-q_{1}\right|,\left|p_{2}-q_{2}\right|\right\}$ does not define a metric on $\mathbb{R}^{2}$.\\
+	\\
+		The Triangle inequality does not hold.\\ (1,0)(2,0)
+	Let $ p,q,r \in \R^2 $. Observe.
+		\begin{align*}
+		d(p,r) &= min\{|p_1-r_1|,|p_2-r_2|\}\\
+				&\geq min\{|p_1-q_1|+|q_1-r_1|,|p_2-q_2|+|q_2-r_2|\}\\
+				&= |p_i-q_i|+|q_i-r_i|\\
+				&\text{ where $ i $ with value 1 or 2 holds the minimum value}\\
+				|p_i-q_i| &\leq min\{|p_1-q_1|,|p_2-q_2|\}\\
+				|q_i-r_i| &\leq min\{|q_1-r_1|,|q_2-r_2|\}
+		\end{align*}
+	So, 
+		\[d(p,r) \geq min\{|p_1-q_1|,|p_2-q_2|\} + min\{|q_1-r_1|,|q_2-r_2|\}\geq d(p,q)+d(q,r)\]
+	Thus, the triangle inequality does not hold in general.
+	\item[5.05]Let $X$ be a nonempty set. Define $d$ on $X \times X$ by
+	$$
+	d(x, y)=\left\{\begin{array}{ll}
+	0 & \text { if } x=y \\
+	1 & \text { if } x \neq y
+	\end{array}\right.
+	$$    
+	Show that $d$ is a metric, and determine the topology on $X$ induced by $d$\\
+	
+	(i) \wts{$\forall x,y\in X, d(x, y) \geq 0$}
+	Let $ x,y\in X $. Consider the following two cases:\\
+	\\
+	Case 1: $ x = y \implies d(x,y) = 0$\\
+	Case 2: $ x \neq y \implies d(x,y) = 1$\\
+	\\
+	Thus, in both cases $ d(x,y) \geq 0 $\\
+	
+	 (ii) \wts{$\forall x,y \in X,  d(x,y) = d(y,x) $}
+	 Let $ x,y\in X $. Consider the following two cases:\\
+	 \\
+	 Case 1: $ d(x,y) = 1 = d(y,x) $\\
+	 Case 2: $ d(x,y) = 0  = d(y,x) $\\
+	 \\
+	 	Thus, in both cases $ d(x,y)= d(y,x)$\\
+	 \\
+	 (iii) \wts{$ \forall x,y,z \in X, d(x,y)+d(y,z) \geq d(x,z)$}
+	 Let $ x,y,z \in X $. Consider the following:\\
+	 \\
+	 Case 1: $ x \neq y \neq z \implies  d(x,y)+d(y,z)= 2 \geq d(x,z) = 1 \implies 2 \geq 1$\\
+	 Case 2: $ y = x \text{ or } y = z  \implies d(x,y)+d(y,z) = 1 \geq d(x,z) = 1 \implies 1 \geq 1$\\
+	 Case 3: $ x = z \implies d(x,y)+d(y,z) = 2 \text{ or } 1\geq d(x,z) \implies  2\text{ or } 1\geq 0$\\
+	 Case 4: $ x = y = z \implies d(x,y)+d(y,z) = 0 \geq d(x,z) = 0 \implies 0 \geq 0$\\
+	 \\
+	 Thus, all cases hold.\\
+	 \\
+	 Therefore, the three conditions of a metric are satisfied and $d$ is a metric.\\
+	 \\
+	 This is the discrete metric.
+	\item[5.09] Prove Theorem 5.6: Let $(X, d)$ be a metric space. A set $U \subset X$ is open in the topology induced by $d$ if and only if for each $y \in U,$ there is a $\delta>0$ such that $B_{d}(y, \delta) \subset U$\\
+	Let $ (X,d) $ be a metric space.\\
+	\wts{$ U \subset X $ is open in $ (X,d) $ then $ \forall y\in U \exists \delta > 0 $ such that $B_d(y,\delta)\subset U$}
+	Let $ U\subset X $ be open in the topology induced by $ d $ and $ y \in U $. By theorem 1.9 we can find $ B_d(y,\delta) \subset U $ such that $ y\in B_d$. 
+	
+	\wts{$ y \in U $ with $ \delta > 0 $ then $ U $ is open in the topology induced by $ d $.}
+	Let $ U \subset X $ and $ y\in U $ with $ \delta > 0 $ such that $ B_d(y,\delta)\subset U $. Notice by theorem 1.9, we can find bases element at each point in $ U $ which follows that $ U $ is open. 	
+	\item[5.10] (a) Let $(X, d)$ be a metric on a space. For $x, y \in X$, define
+	$$
+	D(x, y)=\frac{d(x, y)}{1+d(x, y)}
+	$$
+	Show that $D$ is also a metric on $X$\\
+	
+	Let $ x,y,z\in X $.
+	\\
+	(i) Since $ d(x,y)\geq 0 $,  $ D(x,y) \geq 0 $ as addition on non-negatives will be non-negative. 
+	Thus, (i) holds.\\
+	
+	(ii) Observe. 
+	\begin{align*}
+		D(x,y) &= \frac{d(x,y)}{1+d(x,y)}\\
+		       &= \frac{d(y,x)}{1+d(y,x)}\\
+		       &= D(y,x)\\
+	\end{align*}
+	Thus, (ii) holds.\\
+	(iii)
+	Observe.
+	\begin{align*}
+	    	D(x,y)+D(y,z)&= \frac{d(x,y)}{1+d(x,y)} + \frac{d(y,z)}{1+d(y,z)} \\
+						 &= \frac{d(x,y)(1+d(y,z))}{(1+d(x,y))(1+d(y,z))} + \frac{d(y,z)(1+d(x,y))}{(1+d(x,y))(1+d(y,z))}\\
+						 &\geq \frac{d(x,y)+d(y,z)}{(1+d(x,y))(1+d(y,z))}\\
+						 &\geq \frac{d(x,z)}{(1+d(x,y))(1+d(y,z))}\\
+						 &\geq \frac{d(x,z)}{1+d(x,z)} \\
+						 &\text{ As $ d(x,z)=d(x,z)  $ and $ (1+d(x,y))(1+d(y,z)) \geq 1+d(x,z)$ }
+	\end{align*}
+	Thus, (iii) holds.\\
+	\\
+	Thus, the three conditions of a metric hold.\\
+	Therefore, $ D $ is a metric on $ X $\\
+	\\
+	(b) Explain why no two points in $X$ are distance one or more apart in the metric $D$.\\
+	The numerator is always smaller than the denominator, so the distance will always be less than 1 apart.
+	\item[5.14] Let $(X, d)$ be a metric space.\\
+	(a) Show that the closed balls in the metric $d$ are closed sets in the topology on $X$ induced by $d$\\
+	Let $ B_d(x, \varepsilon) $ be a closed ball for some $ x\in X $ and $ \varepsilon > 0 $. Suppose $ y\in X-B_d(x,\varepsilon) $. Then,  $ d(y,x) > \varepsilon $ and so $ d(y,x)-\varepsilon > 0 $. Define $ \delta := d(y,x)-\varepsilon $ and let $ z\in B_d(y,\delta) $. Notice, $ d(x,y)\leq d(x,z)+d(z,y) \implies d(z,x) \geq d(x,y)-d(z,y)>d(x,y)-\delta = \epsilon $. Hence, $ B_d(y,\delta) \subset X-B_d(x,\varepsilon) $ and so must be open. \\
+	Therefore, closed balls in the metric $d$ are closed sets in the topology on $X$ induced by $d$
+	\\
+	(b) Provide an example demonstrating that in general the closed ball $\bar{B}_{d}(x, \varepsilon)$ is not the closure of the open ball $B_{d}(x, \varepsilon)$\\
+	The metric on $ \R $ given by $ d(x,y)=|x-y| $ would be an example that shows that in general the closed ball $\bar{B}_{d}(x, \varepsilon)$ is not the closure of the open ball $B_{d}(x, \varepsilon)$
+	\item[5.15] Let $(X, d)$ be a metric space and assume that $A \subset X .$ Prove that $x \in \mathrm{Cl}(A)$ if and only if there exists a sequence in $A$ converging to $x$.\\
+	$(\implies)$ \wts{$ x\in Cl(A)  \implies \exists$ a sequence in $ A $ converging to $ x $}
+	Let $ x\in Cl(A) $. Notice, all metric spaces are Hausdorff. By theorem 2.12, every convergent sequence in $ A $ converges to a unique point in $ A $.\\
+	Thus, there exists a sequence in $ A $ converging to $ x $.\\
+	$(\Longleftarrow)$ \wts{There is a sequence in $ A $ converging to $ x \implies x\in Cl(A)$ }
+	Since the sequence in $ A $ converging to $ x $ is a limit point, we have that $ x\in A' $. Notice, $ Cl(A)=A\cup A' $. \\
+	Thus, $ x\in Cl(A) $.\\
+	\\
+	Therefore, $x \in \mathrm{Cl}(A)$ if and only if there exists a sequence in $A$ converging to $x$
+	\item[5.23] Let $(X, d)$ be a metric space. Let $A$ and $B$ be disjoint subsets of $X$ that are closed in the topology induced by $d .$ Prove that there exist disjoint open sets $U$ and $V$ such that $A \subset U$ and $B \subset V$\\
+	\wts{$\forall $ closed $ A\subset X, B \subset X$ such that $ A\cap B = \varnothing $, $ \exists U\subset A, V\subset B $ such that $ U\cap V = \varnothing $} 
+	Let $ A\subset X, B\subset X $ be closed sets such that $ A\cap B = \varnothing $.\\
+	Define $ U:= (X-A)\cap(X-B) $ which is open and $ V:=(X-B)\cap(X-A) $ which is also open. 
+	\\
+	Therefore, there exist disjoint open sets $U$ and $V$ such that $A \subset U$ and $B \subset V$
+	\item[5.24] Prove Theorem 5.13: Let $\left(X, d_{X}\right)$ and $\left(Y, d_{Y}\right)$ be metric spaces. A function $f: X \rightarrow Y$ is continuous in the open set definition if and only if for each $x \in X$ and $\varepsilon>0,$ there exists a $\delta>0$ such that if $x^{\prime} \in X$ and $d x\left(x, x^{\prime}\right)<\delta$ then $d_{Y}\left(f(x), f\left(x^{\prime}\right)\right)<\varepsilon .$ (Hint: Consider Exercise 4.3 and the proof of Theorem 4.6.)\\
+	\\
+	$ (\implies) $ Suppose $f:X\to Y$ is continuous in the open set definition and let $x \in X$, $\varepsilon > 0$, and $f(x) \in Y$ with $B(f(x),\varepsilon)$ be open in $Y$. Notice, by Theorem 4.6 there exists a $B(x,\delta)$ such that $f(B(x,\delta)) \subset B(f(x),\varepsilon)$.  Let $x' \in X$ such that $d_x(x,x') < \delta$. It follows that $x' \in B(x,\delta)$.  Then, $f(x') \in f(B(x,\delta))$ and so $d_y(f(x),f(x')) < \delta$.  Since $f(B(x,\delta)) \subset B(f(x),\varepsilon)$, we must have $d_y(f(x),f(x')) < \varepsilon$.\\
+	\\
+	$ (\Longleftarrow) $ Suppose $x\in X$,$\varepsilon > 0$, and there exists a $\delta > 0$ such that $x'\in X$ and $d_X(x,x')<\delta$, then $d_Y(f(x),f(x'))<\varepsilon$. Let $U \subset Y$ be open and $x \in f\1(U)$.  We define $\varepsilon > 0$ such that $B(f(x),\varepsilon) \subset U$.  Then, $x' \in B(x,\delta)$ by our supposition. Notice $f(x') \in B(f(x),\varepsilon) \subset U$.  Since $x' \in B(x,\delta)$, then $x' \in f\1(U)$. \\
+	Thus, $B(x,\delta) \subset f\1(U)$.  \\
+	Hence, by Theorem 1.4 $f\1(U)$ is open in $X$.\\
+	Thus, $f$ is continuous\\
+	\\
+	Therefore, a function $f: X \rightarrow Y$ is continuous in the open set definition if and only if for each $x \in X$ and $\varepsilon>0,$ there exists a $\delta>0$ such that if $x^{\prime} \in X$ and $d x\left(x, x^{\prime}\right)<\delta$ then $d_{Y}\left(f(x), f\left(x^{\prime}\right)\right)<\varepsilon .$
+	\item[5.28]Let $(X, d)$ be a metric space. The function
+	$$
+	D(x, y)=\frac{d(x, y)}{1+d(x, y)}
+	$$
+	is a bounded metric on $X \text { . (See Exercise } 5.10 .)$ Show that the topologies induced by $D$ and $d$ are the same.\\
+	
+	$ (\subset) $ Let $ x\in X $, $ \varepsilon > 0 $, and $ y\in B_d(x,\delta) $, where $ \delta = \frac{\varepsilon}{1-\varepsilon} $. \\
+	\wts{$ y\in B_D(x,\varepsilon) \implies D(x,y)<\varepsilon$}
+	Note $ d(x,y)<\delta $. Observe.
+	\begin{align*}
+		D(x,y) &= \frac{d(x,y)}{1+d(x,y)}\\
+			   &< \frac{(\frac{\varepsilon}{1-\varepsilon})}{1+(\frac{\varepsilon}{1-\varepsilon})}\\
+			   &< \varepsilon
+	\end{align*}
+	Thus, $ y\in B_D(x,\varepsilon) $ and $ B_d(x,\delta)\subset B_D(x,\varepsilon)  $.\\
+	Hence, by theorem 5.15 the topology induced by $ d $ is finer than the topology induced by $ D $.\\
+	\\
+	$ (\supset) $ Let $ x \in X $, $ \varepsilon >0 $, and $ y\in B_D(x,\delta) $, where $ \delta = \frac{\varepsilon}{1+\varepsilon} $.\\
+	\wts{$ y\in B_d(x,\varepsilon) \implies d(x,y)<\varepsilon $}
+	Note $ D(x,y)<\delta $ and so $ \frac{d(x,y)}{1+d(x,y)}<\delta \implies d(x,y)<\frac{\delta}{1-\delta} $. Observe.
+		\begin{align*}
+			d(x,y) &< \frac{\delta}{1-\delta}\\
+				   &= \frac{(\frac{\varepsilon}{1+\varepsilon})}{1-(\frac{\varepsilon}{1+\varepsilon})}\\
+				   &< \varepsilon
+		\end{align*}
+	Hence, $ y\in B_d(x,\varepsilon) $ and $ B_D(x,\delta)\subset B_d(x,\varepsilon) $\\
+	Thus, by theorem 5.15 the topology induced bv $ D $ is finer than the topology induced by $ d $.\\
+	\\
+	Thus, the two induced topologies are finer than each other.\\
+	Therefore, the topologies induced by $D$ and $d$ are the same
+		
+	\item[5.30] Let $\left(X, d_{X}\right)$ and $\left(Y, d_{Y}\right)$ be metric spaces. Show that if $f: X \rightarrow Y$ is such that $d_{X}\left(x, x^{\prime}\right)=d_{Y}\left(f(x), f\left(x^{\prime}\right)\right)$ for all $x, x^{\prime} \in X,$ then $f$ is injective.\\
+	
+	\item[5.31] Let $\left(X, d_{X}\right)$ and $\left(Y, d_{Y}\right)$ be metric spaces and $f: X \rightarrow Y$ be an isometry between them. Show that $f$ is a homeomorphism between the corresponding metric spaces.\\
+	\\
+	Let $ (X,d_X) $ and $ (y,d_Y) $ be metric spaces and $ f : X \to Y $ be an isometry between them. $ f $ is continuous by definition of isometry.\\
+	\wts{$ f,f\1 $ are continuous}
+	\wts{$ f $ is continuous}
+	Let $ x\in X $ and $ V\subset X $ such that $ f(x)\in V $. Let $ z\in Y $ and $ \varepsilon'>0 $ with $ B_d(z,\varepsilon') $. Using theorem 1.9, we define $ B_z := B_d(z,\varepsilon') $ such that $ f(x) \in B_z $ and $ B_z \subset V $. Then by lemma 5.4, $ \exists \varepsilon >0$ such that $ B_d(f(x),\varepsilon)\subset B_d(z,\varepsilon') $. It follow that there exists a $ \delta > 0  $ such that $ f(B_d(x,\delta))\subset B_d(f(x),\varepsilon) $ by theorem 5.13.\\
+	Thus, $ f(B_d(x,\delta))\subset B_d(f(x),\varepsilon) \subset B_z \subset V$\\
+	Therefore, $ f $ is continuous.\\
+	\\
+	\wts{$ f\1 $ is continuous.}
+	Let $ y\in Y $ and $ U\subset Y $ such that $ f\1(y)\in X $. Let $ z\in X $ and $ \varepsilon'>0 $ with $ B_d(z,\varepsilon') $. Using theorem 1.9, we define $ B_z := B_d(z,\varepsilon') $ such that $ f\1(y) \in B_z $ and $ B_z \subset U $. Then by lemma 5.4, $ \exists \varepsilon >0$ such that $ B_d(f\1(y),\varepsilon)\subset B_d(z,\varepsilon') $. It follow that there exists a $ \delta > 0  $ such that $ f\1(B_d(y,\delta))\subset B_d(f\1(y),\varepsilon) $ by theorem 5.13.\\
+	Thus, $ f\1(B_d(y,\delta))\subset B_d(f\1(y),\varepsilon) \subset B_z \subset U$\\
+	\\
+	Therefore, $f$ is a homeomorphism between the corresponding metric spaces
+
+	
+	
+
+
+\end{enumerate}
+\end{document}
